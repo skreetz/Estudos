@@ -1,0 +1,256 @@
+Uma parte vital do design de um sistema seguro é uma zona desmilitarizada. Uma zona desmilitarizada (DMZ) é um segmento de rede entre a rede interna e a rede privada de uma empresa e a Internet. É uma zona de buffer que inclui uma camada extra de segurança. Para acessar a rede interna, os invasores devem passar pela DMZ. Mesmo que eles violem a DMZ, a rede interna ainda estará segura.
+
+A estratégia de segurança de uma empresa é vital para sua maturidade de segurança geral. Maturidade de segurança significa o quão bem uma empresa pode proteger seus ativos e responder às ameaças de segurança cibernética. Quanto mais avançados forem os protocolos e estratégias de segurança de uma empresa, maior será seu nível de maturidade.
+
+Portanto, a inteligência de ameaça cibernéticas consistem em dados coletados e analisados por uma empresa a fim de obter o entendimento dos motivos e do comportamento dos invasores cibernéticos. Esse é um subconjunto do cenário da inteligência que exploraremos mais adiante.
+
+Na segurança cibernética, a inteligência geralmente se concentra nas táticas, técnicas e procedimentos (TTPs) do invasor ou em outros indicadores de comprometimento (IOCs). O que esses termos significam?
+
+Táticas são o "motivo" ou objetivo do adversário ao executar uma ação. Por exemplo, um adversário pode querer aumentar privilégios.
+Técnicas são os "meios", ou seja, as maneiras pelas quais um adversário atinge um objetivo tático ao executar uma ação. Por exemplo, um adversário pode contornar os controles de acesso para aumentar os privilégios.
+Procedimentos são as implementações específicas usadas pelo adversário para as técnicas. Por exemplo, um adversário pode usar uma ferramenta ou programa específico para aumentar os privilégios. 
+Indicadores de comprometimento (IOCs) são características relacionadas à atividade do invasor. Por exemplo, certos endereços IP podem estar associados a grupos de ameaças ou a determinados arquivos. A presença de um IOC pode indicar que uma empresa já foi comprometida, por isso o nome.
+
+No mundo da inteligência de ameaça cibernéticas, os cargos geralmente podem ser divididos em duas áreas: produção e interpretação.
+
+Na área de produção, existe uma série de cargos envolvidos na coleta e no enriquecimento de informações. Alguns deles focam no lado técnico, como os envolvidos no desenvolvimento de varredores ou crawlers da web ou na análise de software. Outros cargos podem envolver mais subterfúgios, como a infiltração em gangues e mercados criminosos. Finalmente, existem cargos envolvidos na tradução, na análise linguística e na psicometria (a ciência de medir os recursos e processos mentais). Todos esses cargos coletam informações e produzem inteligência a partir delas.
+No lado da interpretação, a menos que o desenvolvimento da inteligência seja feito internamente ou por comissão, é muito raro que a inteligência diga aos analistas tudo o que eles gostariam de saber. Os analistas de segurança podem receber diversos avisos relacionados a diversos tópicos. Eles precisam revisar as descobertas e decidir qual é o melhor curso de ação. A interpretação deve levar em consideração atributos organizacionais exclusivos, como informações proprietárias ou confidenciais, para ser eficaz. Não existe um modelo único para todas as situações!
+
+As plataformas SIEM originais eram ferramentas de gerenciamento de log. Eles combinaram as funções de gerenciamento de informações de segurança (SIM) e gerenciamento de eventos de segurança (SEM). Essas plataformas permitiram o monitoramento e a análise em tempo real de eventos relacionados à segurança.
+
+Além disso, eles facilitaram o rastreamento e o registro de dados de segurança para fins de conformidade ou auditoria. A Gartner cunhou o termo SIEM para a combinação de tecnologias SIM e SEM em 2005.
+
+No centro de operações de segurança (SOC) da empresa, existe um cargo de nível de entrada chamado analista de SOC.
+
+Também é conhecido como analista de segurança cibernética ou analista de triagem.
+Esse cargo é "reativo", pois o analista de SOC responde a alertas individuais e os investiga, como se fosse um detetive, com base nas evidências.
+É possível encontrar referências a um analista de SOC como um cargo de "Nível 1". Os níveis numerados de forma crescente são geralmente usados para indicar níveis de responsabilidade e requisitos de experiência correspondentes. Também é possível ver referências a um cargo "Júnior".
+
+Em seguida, também no SOC, temos um cargo de nível médio chamado respondente de incidentes.
+
+Também é conhecido como analista de resposta a incidentes.
+Esse cargo determina se um alerta relatado é um ataque organizacional ou uma ameaça persistente na rede de uma empresa e garante a correção.
+
+CERTIFICAÇÕES 
+
+CompTIA Security+
+Essa é uma certificação global que valida as habilidades básicas que os profissionais precisam para desempenhar funções essenciais de segurança e seguir uma carreira em segurança de TI.
+Essa é a melhor certificação para cargos de nível básico em segurança cibernética.
+A certificação CompTIA Security+ é direcionada para esses cargos: administrador de sistemas, administrador de rede, administrador de segurança, auditor de TI júnior, testador de penetração, especialista em segurança, consultor de segurança e engenheiro de segurança.
+A experiência recomendada é ter a CompTIA Network+ e dois anos de experiência em administração de TI com foco em segurança.
+
+CompTIA Cybersecurity Analyst (CySA+)
+Essa é uma certificação de força de trabalho de TI que aplica análises comportamentais a redes e dispositivos para prevenir, detectar e combater ameaças de segurança cibernética.
+A CySA+ é a certificação de analista de segurança mais atualizada, que cobre ameaças persistentes avançadas em um ambiente de segurança cibernética pós-2014.
+A certificação CompTIA CySA+ é direcionada para os seguintes cargos: analista de segurança de TI, analista de SOC, analista de vulnerabilidades, especialista em segurança cibernética, analista de inteligência de ameaça, engenheiro de segurança, analista de segurança cibernética e monitoramento de segurança.
+A experiência recomendada é ter a Network+, a Security+ ou um conhecimento equivalente. Mínimo de 3 a 4 anos de experiência prática em segurança de informações ou experiência relacionada. Embora não haja pré-requisito necessário, a CySA+ deve seguir a CompTIA Security+ ou uma experiência equivalente e tem um foco técnico prático.
+
+Certificação IT Infrastructure Library (ITIL)
+A ITIL é um modelo globalmente aceito de melhores práticas para o Gerenciamento de Serviços de TI (ITSM).
+O esquema de certificação ITIL fornece uma abordagem modular para o modelo ITIL. Existe uma estrutura em camadas de diversas certificações, por exemplo, do nível Foundation (básico) ao Master (especialista). Isso oferece flexibilidade relacionada às diferentes disciplinas e áreas da ITIL e a capacidade de focar estudos nas principais áreas de interesse.
+Existem certificações iniciais a considerar que serão relevantes somente se uma função específica exigir.
+
+Certified Ethical Hacker (CEH)
+Um Certified Ethical Hacker (hacker ético certificado) é um profissional qualificado que entende e sabe como encontrar pontos fracos e vulnerabilidades nos sistemas de destino e usa o mesmo conhecimento e ferramentas que um hacker malicioso, mas de maneira legal e legítima, para avaliar a postura de segurança de um sistema de destino.
+A credencial CEH certifica indivíduos na disciplina específica de segurança de rede Hackeamento Ético, de uma perspectiva que abrange todos os fornecedores.
+Esse programa confiável e respeitado pode beneficiar qualquer profissional de segurança cibernética.
+
+Certified Information Systems Security Professional (CISSP)
+A certificação CISSP valida as habilidades e os conhecimentos de um profissional ao desenvolver, implementar e gerenciar efetivamente um programa de segurança cibernética.
+É ideal para profissionais de segurança experientes, gerentes e executivos interessados em provar seu conhecimento em uma ampla variedade de práticas e princípios de segurança, incluindo aqueles nos seguintes cargos: diretor de segurança de informações, diretor de segurança, analista de segurança, arquiteto de segurança, consultor de segurança e muito mais.
+Nota: são necessários cinco anos de experiência.
+
+Certified Information Security Manager (CISM)
+A ISACA oferece a certificação CISM para os profissionais demonstrarem sua experiência comprovada e multifacetada e sua capacidade de entender questões complexas e desafiadoras de gerenciamento de segurança para empresas.
+Estudos independentes recentes classificam o CISM como uma das certificações de TI mais bem pagas e procuradas.
+Nota: são necessários cinco anos de experiência.
+
+Tríade CIA
+Agora você sabe o que é segurança cibernética. Mas o que ela busca realizar? A segurança cibernética eficaz cumpre três objetivos:
+
+Confidencialidade
+Integridade
+Disponibilidade
+
+Esses objetivos compõem a Tríade CIA (Confidentiality,Integrity e Availability), um modelo bem conhecido e um pilar da segurança cibernética.
+
+Confidencialidade significa manter os dados em segredo; ou seja, apenas pessoas autorizadas podem acessá-los divulgá-los. Por exemplo, as empresas de software normalmente mantêm o código-fonte de seus aplicativos em segredo por vantagem competitiva. Para reduzir as chances de vazamento do código-fonte, elas restringem o acesso apenas aos funcionários que dele necessitam. A confidencialidade também abrange os dados privados das pessoas. Por exemplo, os serviços de saúde devem garantir que os dados pessoais coletados durante os tratamentos, como diagnósticos ou prescrições, permaneçam privados. Com poucas exceções, somente você, seu médico e a equipe médica autorizada devem ter acesso a esses dados.
+
+Na prática, a confidencialidade envolve a implementação de proteções que concedem o nível certo de acesso ao conjunto certo de usuários, nos momentos certos, usando os métodos certos.
+
+Integridade significa garantir que os dados sejam confiáveis e precisos, protegendo-os contra modificação e destruição não autorizadas. Digamos que você gaste US$ 10 em uma pizza. Você pode não se importar com a confidencialidade dessa compra. Mas e se algo alterar a quantia da transação e você acabar gastando US$ 10.000? Observe que a integridade dessa transação pode ter sido comprometida intencionalmente ou não. Também considere que, embora a causa do erro possa ser técnica, ela também pode ser humana. Talvez alguém tenha inserido a quantia de pagamento erroneamente.
+
+Para preservar a integridade, deve-se também evitar que pessoas não autorizadas editem os dados. Neste sentido, integridade e confidencialidade se sobrepõem.
+
+Disponibilidade significa garantir acesso adequado e confiável aos dados e seu uso. Por exemplo, você espera acesso on-line 24 horas por dia, 7 dias por semana à sua conta bancária. Para atender a essa expectativa, seu banco deve implementar e disponibilizar recursos suficientes para manter o banco on-line acessível e funcionando adequadamente.
+
+Mas acesso em tempo hábil nem sempre significa acesso imediato ou mesmo contínuo. Por exemplo, ao solicitar um histórico escolar, você pode ter que esperar vários dias para que os funcionários da escola localizem, processem e enviem os documentos. E se a escola fornecer os históricos escolares eletronicamente, ela poderá limitar o prazo de acesso a eles. Independentemente do método de entrega dos históricos escolares, os dados estarão disponíveis por um prazo razoável.
+
+CONTROLES
+
+Controles de confidencialidade
+Considere estes controles padrão para preservar a confidencialidade.
+
+Criptografia, que converte seus dados em um formulário que somente alguém com a chave de decriptografia pode entender.
+Controles de acesso são medidas destinadas a assegurar que apenas as pessoas certas possam visualizar, modificar ou compartilhar dados. Ao usar proteção de senha, você está usando um controle de acesso. Os controles de acesso também incluem biometria, como impressões digitais ou varreduras de retina, que asseguram que apenas pessoas autorizadas possam acessar os dados.
+Gerenciamento de correção, que envolve atualizações do software do sistema. A atualização regular do software do sistema corrige possíveis falhas de segurança que os invasores podem explorar.
+
+Controles de integridade
+Considere estes controles padrão para preservar a integridade.
+
+Somas de verificação são algoritmos matemáticos que geram um valor exclusivo para um conjunto de dados. Se os dados mudarem, a soma de verificação também mudará, alertando sobre a alteração.
+Controles de acesso e permissões de usuário limitam quem pode mudar os dados e quais alterações podem ser feitas.
+Backups de dados podem ajudar a restaurar os dados ao seu estado correto se ocorrerem alterações.
+Trilhas de auditoria podem rastrear e registrar todas as alterações feitas nos dados. Elas fornecem um registro claro de quem fez uma mudança e quando ela foi feita.
+
+Controles de disponibilidade
+Considere estes controles padrão para preservar a disponibilidade.
+
+Sistemas redundantes e procedimentos de backup de dados ajudam a proteger os dados contra perdas ou os sistemas contra falhas. É possível usar vários servidores ou armazenar os dados em diversos locais.
+Software antimalware e firewalls protegem os sistemas contra ataques que possam interromper os serviços.
+Recuperação de desastre e planos de continuidade de negócios descrevem as etapas necessárias para restaurar serviços de forma rápida e eficiente caso ocorra uma interrupção, minimizando o tempo de inatividade.
+
+RESPOSTA DE RISCO
+
+Aceitação
+A empresa aceita o risco em sua forma atual. Ela reconhece as possíveis consequências do risco e está preparada para lidar com elas caso ocorram. Um funcionário sênior da empresa, denominado proprietário de risco, toma a decisão de aceitar o risco.
+
+Transferência
+A empresa opta por transferir o risco. Isso pode envolver um terceiro aceitando parte ou todo o risco em vez de a empresa aceitar o risco em si. A transferência normalmente ocorre por meio de seguro ou terceirização. Embora o risco permaneça, outra entidade gerencia o seu impacto, reduzindo a ameaça direta à empresa.
+
+Redução
+A empresa decide que um risco é muito grande para ser aceito e pretende reduzi-lo de alguma forma. Para reduzir o risco, a empresa pode reduzir sua probabilidade ou consequência. Isso é feito por meio da implementação de controles de segurança ou da correção das vulnerabilidades do sistema.
+
+Rejeição
+A empresa decide que um risco é muito alto e rejeita-o, o que significa que a empresa deixa de ser afetada por ele. Rejeitar o risco pode mudar significativamente as operações de negócios. Por exemplo, a rejeição pode envolver fechar sites, evitar mercados ou evitar atividades que levem ao risco.
+
+APETITE DE RISCO
+
+Um apetite de risco é o nível de risco que uma empresa está disposta a aceitar.
+
+Uma empresa terá um alto apetite de risco se estiver disposta a aceitar um alto nível de risco.
+Uma empresa terá um baixo apetite de risco se não gostar de aceitar risco.
+
+Como você pode se defender contra a engenharia social?
+Mas como as empresas se defendem contra a engenharia social? Elas devem se concentrar nos três principais elementos da segurança cibernética: processo, treinamento e tecnologia.
+
+Processo: Elas devem implementar políticas que descrevam o uso aceitável de recursos corporativos e os procedimentos para manipulação de informações confidenciais.
+Treinamento: Elas devem manter sessões regulares de treinamento de segurança cibernética para assegurar que cada funcionário compreenda as políticas e os riscos associados à sua violação.
+Tecnologia: Elas devem investir em softwares de segurança, como filtros de spam e softwares antimalware, que possam detectar e impedir ataques de engenharia social.
+Quando implementadas em conjunto, essas medidas podem impulsionar significativamente as defesas de uma empresa contra a engenharia social.
+
+Segurança e garantia de informações envolve proteger e assegurar a confidencialidade, integridade e disponibilidade dos dados contra acesso, uso ou modificação não autorizado.
+
+Garantia de segurança envolve verificar se os controles de segurança protegem efetivamente as redes e os dispositivos contra ameaças.
+
+Análise de ameaça envolve identificar, analisar e avaliar ameaças potenciais a sistemas ou empresas.
+
+Criptografia envolve proteger as informações convertendo-as em um código que somente pessoas ou sistemas autorizados podem decodificar.
+
+Autenticação envolve a verificação da identidade de uma pessoa ou sistema que tenta acessa recursos protegidos para assegurar que eles são quem dizem ser.
+
+Gerenciamento e avaliação de risco envolve identificar, avaliar e limitar os riscos que as empresas enfrentam. Ela apresenta as conclusões de sua recente avaliação de risco e identifica potenciais riscos e vulnerabilidades dos sistemas. Ela também descreve seu plano para analisar mais detalhadamente essas ameaças para determinar a probabilidade e potencial impacto do ataque dos agentes da ameaça.
+
+Segurança de rede envolve identificar e implementar controles para proteger redes e dispositivos de rede contra acesso não autorizado ou ataques.
+
+Habilidades laborais são habilidades gerais e não técnicas úteis para obter e ter sucesso na maioria das funções. Alguns empregadores indicam essas habilidades como habilidades de empregabilidade, interpessoais ou profissionais. Os profissionais de segurança cibernética precisam de uma combinação experiente de habilidades básicas e laborais.
+
+Pessoas, processos e tecnologia são os três elementos principais da segurança cibernética
+
+O spyware foi projetado para rastrear e espionar você.
+Adware  é um software projetado para fornecer anúncios automaticamente ao usuário.
+Os worms  se replicam  para se espalhar de um computador para outro.
+Os vírus são replicados e anexados  a outros arquivos executáveis , inserindo seu  próprio código.
+Ransomware  é projetado para manter um sistema de computador ou os dados que ele contém cativos até que o pagamento seja feito.
+
+Pretexting
+Isso ocorre quando um invasor liga para um indivíduo e mente para ele na tentativa de obter acesso a dados privilegiados.
+
+Por exemplo, fingir que precisa dos dados pessoais ou financeiros de uma pessoa para confirmar sua identidade.
+
+Tailgating
+Isso ocorre quando um invasor segue rapidamente uma pessoa autorizada até um local físico seguro.
+
+Algo por algo (Quid pro quo)
+É quando um hacker solicita informações pessoais de uma pessoa em troca de algo, como um brinde gratuito.
+
+
+As senhas em um sistema de computador não são armazenadas como texto sem formatação, mas como valores de hash (valores numéricos que identificam exclusivamente  os dados). Uma tabela do arco-íris é um grande dicionário de hashes pré-computados e as senhas das quais eles foram calculados.
+
+Ao contrário de um ataque de força bruta que precisa calcular cada hash, um ataque do arco-íris compara o hash de uma senha com os armazenados na tabela do arco-íris. Quando um invasor encontra uma correspondência, ele identifica a senha usada para criar o hash.
+
+Advanced Persistent Threat (APT) – uma operação multi-fase, longo prazo, furtiva e avançada contra um alvo específico. Por essas razões, um invasor geralmente não tem o conjunto de habilidades, os recursos ou a persistência para realizar APTs.
+
+Devido à complexidade e ao nível de habilidade necessários para realizar esse ataque, um APT geralmente é bem financiado e normalmente tem como alvo organizações ou nações por motivos comerciais ou políticos.
+
+Seu principal objetivo é implantar malware personalizado em um ou mais sistemas do alvo e permanecer lá sem ser detectado.
+
+Buffer Overflow
+Os buffers são áreas de memórias alocadas a um aplicativo. Uma vulnerabilidade ocorre quando os dados são gravados além dos limites de um buffer. Ao alterar os dados além dos limites de um buffer, o aplicativo pode acessar a memória alocada para outros processos. Isso pode levar a uma falha do sistema ou  comprometimento de dados ou fornecer escalonamento de privilégios.
+
+Os problemas de controle de acesso ocorrem pelo uso indevido de práticas que gerenciam o controle físico de equipamentos, dados ou aplicativos.
+Existem pontos fracos nas práticas de segurança quando os sistemas e dados confidenciais não são protegidos por meio de técnicas como autenticação, autorização e criptografia.
+Uma entrada não validada descreve uma vulnerabilidade na qual dados fornecidos a um programa por um usuário ou exploit fazem com que o aplicativo se comporte de maneira não intencional.
+
+A política de uso de dados descreve como o provedor de serviços coletará, usará e compartilhará seus dados.
+As configurações de privacidade permitem controlar quem vê informações sobre você e quem pode acessar seus dados de perfil ou de conta.
+A política de segurança descreve o que a empresa está fazendo para proteger os dados obtidos de você.
+
+Cisco Integrated Services Router (ISR) 4000. Esses roteadores têm muitos recursos, incluindo filtragem de tráfego, a capacidade de executar um sistema de prevenção de intrusão (IPS), criptografia e recursos de VPN para encapsulamento criptografado seguro.
+
+Cisco’s Firepower 4100 Series é um firewall de última geração que possui todos os recursos de um roteador ISR, bem como gerenciamento e análise de rede avançados. Ele pode ajudá-lo a ver o que está acontecendo na rede para que você possa detectar ataques mais cedo.
+
+Cisco’s AnyConnect Secure Mobility Client é um sistema de VPN que permite que funcionários remotos usem um túnel criptografado seguro de seu computador móvel para se conectarem de volta à rede da empresa. Todos os dispositivos de segurança da Cisco estão equipados com um servidor VPN e tecnologia de cliente, projetados para tunelamento criptografado seguro.
+
+Cisco’s Advanced Malware Protection (AMP) é instalado em roteadores Cisco, firewalls, dispositivos IPS e dispositivos de segurança de e-mail e web de próxima geração. Também pode ser instalado como software em computadores host.
+
+Firewall de camada de rede
+Isso filtra as comunicações com base nos endereços IP de origem e destino.
+
+Firewall da camada de transporte
+Filtra as comunicações com base nas portas de dados de origem e destino, bem como nos estados de conexão.
+
+Firewall da camada de aplicação
+Filtra as comunicações de acordo com um aplicativo, programa ou serviço.
+
+Firewall sensível ao contexto (context-aware)
+Filtra as comunicações com base no usuário, dispositivo, função, tipo de aplicativo e perfil de ameaça.
+
+Firewall servidor proxy 
+Filtra solicitações de conteúdo da Web, como URLs, nomes de domínio e tipos de mídia.
+
+Firewall servidor proxy-reverso
+Colocados na frente de servidores web, os servidores proxy reversos protegem, ocultam, descarregam e distribuem o acesso aos servidores web.
+
+Firewall NAT
+Este firewall oculta ou mascara os endereços privados dos hosts da rede.
+
+Firewall baseado em host 
+Filtra portas e chamadas de serviço do sistema em um único sistema operacional de computador.
+
+Um NAT firewall filtra as comunicações de acordo com os endereços IP de origem e destino.
+Um servidor proxy filtra solicitações de conteúdo da Web, como URLs, nomes de domínio e tipos de mídia.
+Um firewall baseado em host filtra portas e chamadas de serviço do sistema em um único sistema operacional de computador.
+
+Um IDS pode ser um dispositivo de rede dedicado ou uma das várias ferramentas em um servidor, firewall ou até mesmo um sistema operacional de computador host, como Windows ou Linux, que faz a varredura de dados de um banco de dados ou assinaturas de ataque, em busca de tráfego malicioso.
+Se uma correspondência for detectada, o IDS registrará a detecção de registro e criará um alerta para um administrador de rede. Ela não tomará nenhuma ação e, portanto, não impedirá que os atques aconteçam. O trabalho do IDS é detectar, registrar e relatar.
+A varredura realizada pelo IDS deixa a rede mais lenta (conhecida como latência). Para se previnir o atraso de rede, um IDS é geralmnete colocado off-line, separado do tráfego de rede regular. Dados são copiados ou espalhados por um switch e então encaminhados para o IDS para a detecção off-line.
+
+Um IPS pode bloquear ou negar tráfego com base em uma regra positiva ou correspondência de assinatura. Um dos sistemas mais conhecidos de IPS/IDS é o Snort. A versão comercial é o Sourcefire da Cisco. A Sourcefire pode realizar análise de tráfego e porta em tempo real, registro, pesquisa e correspondência de conteúdo, bem como detectar sondar, ataques e executar varreduras de porta. Ele também se integra com outras ferramentas de terceiros para relatórios, desempenho e análise de log.
+
+Uma forma de se defender contra ataques de dia zero e ameaças persistentes avançadas (APTs) é usar uma solução empresarial de detecção de malware, como o Advanced Malware Protection (AMP) Threat Grid da Cisco.
+
+AMP é um software cliente/servidor que pode ser implantado em host endpoints, como um servidor autônomo ou em outros dispositivos de segurança de rede. Ele analisa milhões de arquivos e os correlaciona com centenas de milhões de outros artefatos de malware analisados para comportamentos que revelam um APT. Isso proporciona uma visão geral de ataques, de campanhas e de distribuição de malware.
+
+A tecnologia NetFlow é usada para coletar informações sobre os dados que fluem através de uma rede, incluindo quem e quais dispositivos estão na rede, e quando e como os usuários e dispositivos acessam a rede.
+
+O NetFlow é um componente importante na análise e detecção baseada em comportamento. Switches, roteadores e firewalls equipados com NetFlow podem relatar informações sobre a entrada, saída e passagem de dados pela rede. 
+
+Essas informações são enviadas para coletores do NetFlow que coletam, armazenam e analisam dados do NetFlow, que podem ser usados para estabelecer comportamentos de linha de base em mais de 90 atributos, como endereço IP de origem e destino.
+
+Um sistema de Data Loss Prevention DLP é projetado para impedir que dados confidenciais sejam roubados ou escapem de uma rede. Ele monitora e protege os dados em três estados diferentes: dados em uso (dados sendo acessados por um usuário), dados em movimento (dados que viajam pela rede) e dados inativos (dados armazenados em uma rede ou dispositivo de computador)
+
+Um IPS pode bloquear ou negar o tráfego com base em uma regra positiva ou correspondência de assinatura.
+Um IDS verifica os dados em um banco de dados de regras ou assinaturas de ataque, em busca de tráfego malicioso.
+Um DLP é projetado para impedir que dados confidenciais sejam roubados ou escapem de uma rede 
+Um SIEM coleta e analisa alertas de segurança, logs e outros dados históricos e em tempo real de dispositivos de segurança na rede.

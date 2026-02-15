@@ -1,0 +1,263 @@
+Uma ameaça avançada persistente (APT) é um ataque contínuo que usa táticas de espionagem elaboradas envolvendo vários agentes e/ou malware sofisticado para obter acesso e analisar a rede de um alvo.
+Os invasores operam sob o radar e permanecem sem serem detectados por um longo período, com consequências potencialmente devastadoras. Os APTs normalmente visam governos e organizações de alto nível e geralmente são bem orquestrados e bem financiados.
+
+Um vetor de ataque é um caminho pelo qual um atacante poder obter acesso a um servidor, equipamento ou rede. Os vetores de ataque são originários de dentro ou de fora da rede corporativa, conforme mostrado na figura. Por exemplo, os atacantes podem direcionar uma rede pela Internet, para interromper as operações da rede e criar um ataque de negação de serviço (DoS).
+
+Nota: Um ataque de DoS ocorre quando um dispositivo ou aplicativo de rede está incapacitado e não é mais capaz de suportar solicitações de usuários legítimos.
+
+Um usuário interno, como um funcionário, pode acidentalmente ou intencionalmente:
+
+Roubar e copiar dados confidenciais para mídia removível, email, software de mensagens e outras mídias.
+Comprometer servidores internos ou dispositivos de infraestrutura de rede.
+Desconectar uma conexão de rede crítica e cause uma interrupção na rede.
+Conectar uma unidade USB infectada a um sistema de computador corporativo.
+Ameaças internas têm o potencial de causar maior dano que as ameaças externas, pois os usuários internos têm acesso direto ao edifício e a seus dispositivos de infraestrutura. Os funcionários normalmente têm conhecimento da rede corporativa, seus recursos e seus dados confidenciais.
+
+Os profissionais de segurança de rede devem implementar ferramentas e aplicar técnicas para mitigar ameaças externas e internas.
+
+Uma superfície de ataque é a soma total das vulnerabilidades em um determinado sistema que são acessíveis a um invasor. A superfície de ataque descreve diferentes pontos em que um invasor pode entrar em um sistema e onde ele pode obter dados do sistema. Por exemplo, o sistema operacional e o navegador da Web podem precisar de patches de segurança. Cada um deles é vulnerável a ataques e está exposto na rede ou na internet. Juntos, eles criam uma superfície de ataque que o ator ameaça pode explorar.
+
+EXPLOIT - O mecanismo que é usado para alavancar uma vulnerabilidade para comprometer um ativo. As explorações podem ser remotas ou locais. Uma exploração remota é aquela que funciona através da rede sem qualquer acesso prévio ao sistema de destino. O invasor não precisa de uma conta no sistema final para explorar a vulnerabilidade. Em uma exploração local, o ator de ameaça tem algum tipo de acesso administrativo ou de usuário ao sistema final. Uma exploração local não significa necessariamente que o invasor tenha acesso físico ao sistema final.
+
+Outros termos de segurança de rede comumente usados incluem:
+
+Contramedida - As ações que são tomadas para proteger ativos, atenuando uma ameaça ou reduzindo o risco.
+Impacto - O dano potencial à organização causado pela ameaça.
+
+Observação: uma exploração local requer acesso interno à rede, como um usuário com uma conta na rede. Uma exploração remota não requer uma conta na rede para explorar a vulnerabilidade dessa rede.
+
+Muitos ataques de rede podem ser evitados compartilhando informações sobre indicadores de comprometimento (COI). Cada ataque tem atributos identificáveis únicos. Indicadores de compromisso são a evidência de que um ataque ocorreu. Os IOCs podem ser recursos que identificam arquivos de malware, endereços IP de servidores que são usados em ataques, nomes de arquivos e alterações características feitas no software final do sistema, entre outros. Os IOCs ajudam o pessoal de segurança cibernética a identificar o que aconteceu em um ataque e desenvolver defesas contra o ataque.
+
+Indicadores de ataque (IOA) se concentram mais na motivação por trás de um ataque e nos potenciais meios pelos quais os atores da ameaça têm, ou irão, comprometer vulnerabilidades para obter acesso a ativos. Os IOAs estão preocupadas com as estratégias usadas pelos atacantes. Por esse motivo, em vez de informar a resposta a uma única ameaça, os IOAs podem ajudar a gerar uma abordagem de segurança proativa. Isso ocorre porque as estratégias podem ser reutilizadas em vários contextos e ataques múltiplos. Defender contra uma estratégia pode, portanto, impedir ataques futuros que utilizem a mesma estratégia, ou similar.
+
+O IP foi projetado como um protocolo sem conexão de Camada 3. Ele fornece as funções necessárias para entregar um pacote de um host de origem a um host de destino por meio de um sistema interconectado de redes. O protocolo não foi projetado para rastrear e gerenciar o fluxo de pacotes. Essas funções, se necessárias, são executadas principalmente pelo TCP na camada 4.
+
+O IP não faz nenhum esforço para validar se o endereço IP de origem contido em um pacote realmente veio dessa origem. Por esse motivo, os agentes de ameaças podem enviar pacotes usando um endereço IP de origem falsificado. Além disso, os agentes da ameaça podem adulterar os outros campos do cabeçalho IP para realizar seus ataques. Portanto, é importante que os analistas de segurança entendam os diferentes campos dos cabeçalhos IPv4 e IPv6.
+
+IPV4 - Composto por 4 bytes 
+
+Byte 1 :
+ - Versão : Contém um valor binário de 4 bits definido como 0100 que identifica isso como um pacote IPv4.
+ 
+ - Comprimento do cabeçalho da internet : Um campo de 4 bits contendo o comprimento do cabeçalho IP.
+O comprimento mínimo de um cabeçalho IP é de 20 bytes.
+
+ - Serviços diferenciados ou DiffServ (DS) : Anteriormente chamado de campo Tipo de serviço (ToS), o campo DS é um campo de 8 bits usado para determinar a prioridade de cada pacote.
+Os seis bits mais significativos do campo DiffServ são o Ponto de código de serviços diferenciados (DSCP).
+Os dois últimos bits são os bits de notificação de congestionamento explícito (ECN).
+
+ - Comprimento Total : Especifica o comprimento do pacote IP, incluindo o cabeçalho IP e os dados do usuário.
+O campo de comprimento total é de 2 bytes, portanto, o tamanho máximo de um pacote IP é de 65.535 bytes, no entanto, os pacotes são muito menores na prática.
+
+ - Deslocamento de identificação, bandeira e fragmento : À medida que um pacote IP se move pela Internet, talvez seja necessário cruzar uma rota que não possa lidar com o tamanho do pacote.
+O pacote será dividido, ou fragmentado, em pacotes menores e remontado posteriormente.
+Esses campos são usados para fragmentar e remontar pacotes.
+
+ - Tempo de Vida (TTL) : Contém um valor binário de 8 bits que é usado para limitar a vida útil de um pacote.
+O remetente do pacote define o valor inicial do TTL e este é subtraído de um toda vez que o pacote é processado por um roteador.
+Se o campo TTL for decrementado até zero, o roteador descartará o pacote e enviará uma mensagem ICMP de tempo excedido para o endereço IP de origem.
+
+ - Protocolo : O campo é usado para identificar o protocolo de próximo nível.
+O valor binário de 8 bits indica o tipo de carga de dados que o pacote está carregando, o que permite que a camada de rede transfira os dados para o protocolo apropriado das camadas superiores.
+Valores comuns incluem ICMP (1), TCP (6) e UDP (17).
+
+ - Cabeçalho checksum : Um valor calculado com base no conteúdo do cabeçalho IP.
+Usado para determinar se algum erro foi introduzido durante a transmissão.
+
+ - Endereço IPv4 Origem : Contém um valor binário de 32 bits que representa o endereço IPv4 de origem do pacote.
+O endereço de origem IPv 4 é sempre um endereço unicast.
+
+ - Endereço IPv4 de destino : Contém um valor binário de 32 bits que representa o endereço IPv4 de destino do pacote.
+ 
+ - Opções e Preenchimento : Este é um campo que varia em comprimento de 0 a um múltiplo de 32 bits.
+Se os valores de opção não forem um múltiplo de 32 bits, 0s serão adicionados ou preenchidos para garantir que este campo contenha um múltiplo de 32 bits.
+
+Ataques ICMP : Os atores de ameaças usam pacotes de eco (pings) do ICMP (Internet Control Message Protocol) para descobrir sub-redes e hosts em uma rede protegida, gerar ataques de inundação de DoS e alterar as tabelas de roteamento de hosts.
+
+Ataques de negação de serviço (DoS) : Os atores da ameaça tentam impedir que usuários legítimos acessem informações ou serviços.
+
+Ataques de negação de serviço distribuída (DDoS) : Semelhante a um ataque DoS, mas apresenta um ataque simultâneo e coordenado de várias máquinas de origem.
+
+Ataque de Falsificação de Endereços : Os atores da ameaça falsificam o endereço IP de origem na tentativa de executar falsificação cega ou não cega.
+
+Ataque homem no meio (MiTM) : Os agentes de ameaças se posicionam entre uma fonte e um destino para monitorar, capturar e controlar de forma transparente a comunicação. Eles poderiam simplesmente espiar inspecionando os pacotes capturados ou alterando os pacotes e encaminhando-os ao seu destino original.
+
+Sequesto de Sessão : Os atores da ameaça obtêm acesso à rede física e, em seguida, usam um ataque MiTM para sequestrar uma sessão.
+
+ATAQUES ICMP -
+
+O ICMP foi desenvolvido para transportar mensagens de diagnóstico e relatar condições de erro quando rotas, hosts e portas não estão disponíveis. Mensagens ICMP são geradas por dispositivos quando ocorre um erro de rede ou uma interrupção. O comando ping é uma mensagem ICMP gerada pelo usuário, chamada de solicitação de eco, usada para verificar a conectividade com um destino.
+
+Os agentes de ameaças usam o ICMP para ataques de reconhecimento e varredura. Isso permite que eles lancem ataques de coleta de informações para mapear uma topologia de rede, descobrir quais hosts estão ativos (acessíveis), identificar o sistema operacional do host (impressão digital do sistema operacional) e determinar o estado de um firewall.
+
+Os atores de ameaças também usam ICMP para ataques DoS e DDoS.
+
+ICMP para IPv4 (ICMPv4) e ICMP para IPv6 (ICMPv6) são suscetíveis a tipos semelhantes de ataques.
+ICMP solicitação de eco (echo request) e resposta de eco (echo reply) : verificação de host e ataque de DoS.
+ICMP inacessível : executar ataques de reconhecimento e varredura de rede.
+Resposta de máscara ICMP : mapear rede interna.
+ICMP redireciona : atrair host alvo para enviar todo o tráfego através de um dispositivo comprometido e criar um ataque MiTM.
+Descoberta de rotas ICMP : usado para injetar entradas de rota falsa na tabela de roteamento de um host de destino.
+
+As redes devem ter uma filtragem rigorosa da lista de controle de acesso ICMP (ACL) na borda da rede para evitar a sondagem ICMP vindo da Internet. Os analistas de segurança devem ser capazes de detectar ataques relacionados ao ICMP, observando o tráfego capturado e os arquivos de log. No caso de grandes redes, os dispositivos de segurança, como firewalls e sistemas de detecção de intrusão (IDS), devem detectar tais ataques e gerar alertas para os analistas de segurança.
+
+Amplificação - O agente da ameaça encaminha a mensagem de solicitação de eco ICMP para muitos hosts. Essas mensagens contêm o endereço IP de origem da vítima.
+Reflexão - Todos esses hosts respondem ao endereço IP falsificado da vítima para sobrecarregá-lo.
+Nota: As formas mais recentes de ataques de amplificação e reflexão, como ataques de reflexão e amplificação baseados em DNS e ataques de amplificação do Network Time Protocol (NTP), estão sendo usados agora.
+
+Os agentes de ameaças também usam ataques de exaustão de recursos. Esses ataques consomem os recursos de um host de destino para travá-lo ou consumir os recursos de uma rede.
+
+Spoofing não cego - O agente da ameaça pode ver o tráfego que está sendo enviado entre o host e o destino. O agente de ameaça usa a falsificação não cega para inspecionar o pacote de resposta da vítima alvo. A falsificação não cega determina o estado de um firewall e prever número de sequência. Também pode seqüestrar uma sessão autorizada.
+
+Spoofing cego - O agente da ameaça não pode ver o tráfego que está sendo enviado entre o host e o destino. A falsificação cega é usada em ataques de negação de serviço.
+
+Os ataques de falsificação de endereço MAC são usados quando os atores de ameaças têm acesso à rede interna. Os agentes de ameaças alteram o endereço MAC de seu host para corresponder a outro endereço MAC conhecido de um host de destino, conforme mostrado na figura. O host atacante envia um quadro pela rede com o endereço MAC recém-configurado. Quando o switch recebe o quadro, ele examina o endereço MAC de origem.
+
+A seguir estão os seis bits de controle dos segmentos TCP
+
+URG - Campo de ponteiro urgente significativo
+ACK - Campo de confirmação significativo
+PSH - Função Push
+RST - Redefinir a conexão
+SYN - Sincroniza os números da sequência
+FIN - Não há mais dados do remetente
+
+O TCP fornece estes serviços:
+
+Entrega confiável - O TCP incorpora reconhecimentos para garantir a entrega, em vez de depender de protocolos de camada superior para detectar e resolver erros. Se uma confirmação não for recebida à tempo, o remetente retransmitirá os dados. Exigir reconhecimentos dos dados recebidos pode causar atrasos substanciais. Exemplos de protocolos da camada de aplicação que usam a confiabilidade do TCP incluem HTTP, SSL / TLS, FTP, transferências de zona DNS e outros.
+
+Controle de fluxo - TCP implementa controle de fluxo para resolver esse problema. Em vez de reconhecer um segmento de cada vez, vários segmentos podem ser reconhecidos com um único segmento de reconhecimento.
+
+Comunicação stateful - A comunicação com estado do TCP entre duas partes ocorre durante o handshake de três vias do TCP. Antes que os dados possam ser transferidos usando o TCP, um aperto de mãos triplo abre a conexão TCP, conforme mostrado na figura. Se ambos os lados concordarem com a conexão TCP, os dados poderão ser enviados e recebidos por ambas as partes usando o TCP.
+
+Aplicações em Rede usam portas TCP ou UDP. Os atores de ameaças realizam varreduras de portas dos dispositivos de destino para descobrir quais serviços eles oferecem.
+
+Ataque de Inundação de SYN TCP
+
+O ataque de inundação SYN TCP explora o aperto de mãos triplo do TCP. A figura mostra um agente de ameaça enviando continuamente pacotes de solicitação de sessão TCP SYN com um endereço IP de origem falsificado aleatoriamente para um destino. O dispositivo de destino responde com um pacote TCP SYN-ACK ao endereço IP falsificado e aguarda um pacote TCP ACK. Essas respostas nunca chegam. Eventualmente, o host de destino é sobrecarregado com conexões TCP semi-abertas e os serviços TCP são negados a usuários legítimos.
+
+Ataque de redefinição de TCP
+
+Um ataque de redefinição de TCP pode ser usado para encerrar as comunicações TCP entre dois hosts. A figura mostra como o TCP usa uma troca de quatro direções para fechar a conexão TCP usando um par de segmentos FIN e ACK de cada extremidade da conexão TCP. Uma conexão TCP termina quando recebe um bit RST. Essa é uma maneira abrupta de interromper a conexão TCP e informar o host de recebimento para parar imediatamente de usar a conexão TCP. Um agente de ameaça pode fazer um ataque de redefinição de TCP e enviar um pacote falsificado contendo um TCP RST para um ou ambos os pontos de extremidade.
+
+Sequestro de sessão TCP
+
+Sequestro de sessão TCP é outra vulnerabilidade do TCP. Embora seja difícil de conduzir, um agente de ameaça assume um host já autenticado quando ele se comunica com o alvo. O agente de ameaça deve falsificar o endereço IP de um dos hosts, prever o próximo número de sequência e enviar um ACK para o outro host. Se for bem-sucedido, o agente da ameaça poderá enviar, mas não receber, dados do dispositivo de destino.
+
+UDP é comumente usado por DNS, DHCP, TFTP, NFS e SNMP. Também é usado com aplicações em tempo real, como streaming de mídia ou VoIP. UDP é um protocolo de camada de transporte não orientado à conexão. Ele tem uma sobrecarga muito mais baixa que o TCP, porque não é orientado a conexão e não oferece retransmissão, sequenciamento e mecanismos de controle de fluxo sofisticados que fornecem confiabilidade. A estrutura de segmentos UDP, mostrada na figura, é muito menor que a estrutura de segmentos da TCP.
+
+Nota: UDP realmente divide dados em datagramas. No entanto, o termo genérico “segmento” é comumente usado
+
+Embora UDP seja normalmente chamado de não confiável, em contraste com a confiabilidade do TCP, isso não significa que os aplicativos que usam UDP são sempre não confiáveis, nem significa que o UDP é um protocolo inferior. Isso simplesmente significa que essas funções não são fornecidas pelo protocolo da camada de transporte e devem ser implementadas em outros locais, se houver necessidade.
+
+A baixa sobrecarga do UDP o torna muito interessante para protocolos que efetuam transações simples de requisição e resposta. Por exemplo, usar TCP para o DHCP geraria tráfego de rede desnecessário. Se nenhuma resposta for recebida, o dispositivo reenvia a solicitação.
+
+Embora UDP seja normalmente chamado de não confiável, em contraste com a confiabilidade do TCP, isso não significa que os aplicativos que usam UDP são sempre não confiáveis, nem significa que o UDP é um protocolo inferior. Isso simplesmente significa que essas funções não são fornecidas pelo protocolo da camada de transporte e devem ser implementadas em outros locais, se houver necessidade.
+
+A baixa sobrecarga do UDP o torna muito interessante para protocolos que efetuam transações simples de requisição e resposta. Por exemplo, usar TCP para o DHCP geraria tráfego de rede desnecessário. Se nenhuma resposta for recebida, o dispositivo reenvia a solicitação.
+
+Existem diferentes tipos de ataques que visam IP. Os ataques comuns relacionados a IP incluem:
+
+Ataques ICMP
+Ataques de negação de serviço (DoS)
+Ataques Distribuídos de Negação de Serviço (DoS)
+Ataque de Falsificação de Endereços
+Ataque man-in-the-middle (MiTM)
+sequestro de sessão
+
+O ICMP foi desenvolvido para transportar mensagens de diagnóstico e relatar condições de erro quando rotas, hosts e portas não estão disponíveis. Os agentes de ameaças usam o ICMP para ataques de reconhecimento e varredura. Os agentes de ameaças também usam ICMP para ataques DoS e DDoS. Os agentes de ameaças geralmente usam técnicas de amplificação e reflexão para criar ataques de negação de serviço (DoS). Os atores da ameaça também usam ataques de exaustão de recursos para consumir os recursos de um host de destino para travá-lo ou para consumir os recursos de uma rede. Os ataques de falsificação de endereço IP ocorrem quando um agente de ameaça cria pacotes com informações falsas de endereço IP de origem para ocultar a identidade do remetente ou para se passar por outro usuário legítimo. Os ataques de falsificação de endereços podem ser falsificação não cega para sequestrar uma sessão ou falsificação cega para criar um ataque DoS. Os ataques de falsificação de endereço MAC são usados quando os atores de ameaças têm acesso à rede interna.
+
+As informações do segmento TCP e do datagrama UDP aparecem imediatamente após o cabeçalho IP. É importante entender cabeçalhos da Camada 4 e suas funções na comunicação de dados. O TCP fornece entrega confiável, controle de fluxo e comunicação com estado. A comunicação com monitoração de estado TCP entre duas partes ocorre durante o handshake TCP de três vias. Os atores de ameaças podem realizar uma variedade de ataques relacionados ao TCP:
+
+Varreduras de porta TCP
+Ataque de Inundação de SYN TCP
+Ataque de redefinição de TCP
+Ataque de sequestro de sessão TCP
+
+O segmento UDP (ou seja, datagrama) é muito menor do que o segmento TCP, o que o torna muito desejável para uso por protocolos que fazem transações simples de solicitação e resposta, como DNS, DHCP, SNMP e outros. Os atores de ameaças podem conduzir ataques de inundação UDP que varrem todas as portas UDP conhecidas em um servidor tentando encontrar portas fechadas. Isso pode criar uma situação DoS.
+
+Os hosts transmitem uma solicitação ARP para outros hosts no segmento de rede para determinar o endereço MAC de um host com um endereço IP específico. Qualquer cliente pode enviar uma resposta ARP não solicitada denominada "ARP gratuito". Esse recurso do ARP também significa que qualquer host pode reivindicar ser o proprietário de qualquer IP / MAC que escolher. Um ator de ameaça pode envenenar o cache ARP de dispositivos na rede local, criando um ataque MiTM para redirecionar o tráfego.
+
+O protocolo Domain Name Service (DNS) define um serviço automatizado que combina nomes de recursos com o endereço de host IP numérico necessário. Inclui o formato da mensagem para consultas, respostas e dados. Ele usa registros de recursos (RR) para identificar o tipo de resposta DNS. O DNS é crucial para a operação de uma rede e deve ser protegido de acordo. Muitas organizações usam os serviços de servidores DNS abertos publicamente para fornecer respostas às consultas. Os resolvedores abertos DNS são vulneráveis a várias atividades mal-intencionadas, incluindo envenenamento de cache DNS, em que registros falsificados são fornecidos ao resolvedor aberto. Ataques de amplificação e reflexão DNS são outro tipo de ataque no qual a natureza benigna do protocolo DNS é explorada para causar ataques DOS/DDoS. Em ataques de utilização de recursos DNS, um ataque DoS é iniciado contra o próprio servidor DNS. Os atores de ameaças geralmente se escondem usando técnicas furtivas de DNS, como Fast Flux, em que servidores mal-intencionados mudam rapidamente seu endereço IP. Os atores de ameaças usam o Double IP Flux, no qual os atores de ameaças mudarão rapidamente seu nome de domínio para mapeamento IP e seu servidor de nomes autoritativo. Os agentes de ameaças também podem usar o domínio sombreado para ocultar a origem de seus ataques, reunindo credenciais de contas de domínio para criar silenciosamente vários subdomínios a serem usados durante os ataques. O DNS na empresa às vezes é negligenciado como um protocolo que pode ser usado por botnets. Os agentes de ameaças que usam o tunelamento DNS colocam tráfego que não é de DNS, dentro do tráfego DNS. Esse método geralmente contorna soluções de segurança. Para poder interromper o túnel DNS, um filtro que inspecione o tráfego DNS deve ser usado. Os servidores DNS dinâmicos são populares entre os atores de ameaças e o tráfego que usa DNS dinâmico deve ser uma preocupação especial do analista de segurança cibernética.
+
+O DHCP usa uma simples troca de mensagens broadcast e unicast para fornecer aos hosts informações de endereçamento. Um ataque de spoofing de DHCP ocorre quando um servidor DHCP invasor está conectado à rede e fornece falsos parâmetros de configuração IP aos clientes legítimos. O servidor não autorizado pode fornecer informações incorretas do gateway, informações do servidor DNS ou informações de endereçamento IP.
+
+Os navegadores da World Wide Web são usados por quase todos. Bloquear completamente a navegação na Web não é uma opção porque as empresas precisam de acesso à Web. Os analistas de segurança cibernética devem ter uma boa compreensão de como um ataque padrão baseado na Web funciona. Os estágios comuns de um ataque típico da Web incluem a vítima, sem saber, visitar uma página da Web que foi comprometida por malware. A página Web comprometida redireciona o usuário para um site que hospeda códigos mal-intencionados. O navegador é feito para visitar este site e código malicioso infecta seu computador. Isso é conhecido como um drive-by download. Independentemente do tipo de ataque que está sendo usado, o objetivo principal do ator da ameaça é garantir que o navegador da Web da vítima acabe na página da web do ator da ameaça, que, em seguida, serve o exploit malicioso para a vítima. Alguns sites mal-intencionados aproveitam plug-ins vulneráveis ou vulnerabilidades do navegador para comprometer o sistema do cliente. Redes maiores dependem de IDSs para verificar arquivos baixados em busca de malware. Se detectado, o IDS emite alertas e registra o evento em arquivos de log para análise posterior. Os logs de conexão do servidor geralmente podem revelar informações sobre o tipo de varredura ou ataque. Os diferentes grupos de códigos de status de conexão incluem informações 1xx, 2xx bem-sucedido, redirecionamento 3xx, erro de cliente 4xx e erro de servidor 5xx. Para se defender contra ataques baseados na Web, as contramedidas que devem ser usadas incluem sempre atualizar o sistema operacional e os navegadores com patches e atualizações atuais, usar um proxy da Web para bloquear sites mal-intencionados, usar as melhores práticas de segurança do Open Web Application Security Project (OWASP) ao desenvolver a Web e educando os usuários finais mostrando-lhes como evitar ataques baseados na Web.
+
+Há uma série de ataques que usam e-mail para transportar cargas de malware ou para phish para obter informações pessoais. Os servidores SMTP também podem ter vulnerabilidades e devem ser mantidos atualizados com patches. Os appliances de segurança de e-mail podem detectar e bloquear muitos tipos de ameaças de e-mail conhecidas, incluindo phishing, spam e malware.
+
+Aplicativos Web geralmente se conectam a bancos de dados. Como esses bancos de dados podem conter informações confidenciais, eles são um alvo freqüente de ataques. Os ataques de injeção de código e injeção SQL exploram campos de entrada insuficientemente validados para enviar comandos para bancos de dados ou outros aplicativos, a fim de obter acesso a informações privadas. Os ataques XSS (Cross-Site Scripting) ocorrem quando os navegadores executam scripts mal-intencionados no cliente e fornecem aos agentes da ameaça acesso a informações confidenciais no host local.
+
+O OWASP Top 10 Riscos de Segurança de Aplicativos Web foi projetado para ajudar as organizações a criar aplicativos Web seguros. É uma lista útil de potenciais vulnerabilidades que são comumente exploradas por atores de ameaças.
+
+As seguintes práticas recomendadas são usadas para proteger uma rede: desenvolver uma política de segurança escrita, educar funcionários, controlar o acesso físico aos sistemas, usar senhas fortes, criptografar e senha- proteger dados confidenciais, implementar hardware e software de segurança, realizar backups e testar o backup de arquivos, desligue serviços e portas desnecessários, mantenha patches atualizados e execute auditorias e testes de segurança.
+
+O principal meio de mitigar ataques de vírus e cavalos de Tróia é o software antivírus. Um profissional de segurança de rede deve estar ciente dos principais vírus e acompanhar as atualizações de segurança relacionadas aos vírus emergentes.
+
+Worms são mais baseados em rede do que vírus. A resposta a um ataque de vermes pode ser dividida em quatro fases: contenção, inoculação, quarentena e tratamento.
+
+Os ataques de reconhecimento podem ser mitigados de várias maneiras: implementar autenticação para garantir o acesso adequado, usar criptografia para inutilizar ataques de sniffer de pacotes, usar ferramentas anti-sniffer para detectar ataques de sniffer de pacotes, implementar uma infraestrutura comutada e usar um firewall e IPS. A criptografia também é eficaz para mitigar ataques de sniffer de pacotes. Várias técnicas estão disponíveis para mitigar ataques de acesso, incluindo: forte segurança de senha, princípio de confiança mínima, criptografia e aplicação do sistema operacional e patches de aplicativos.
+
+Para minimizar o número de ataques DoS, um pacote de software de utilização de rede deve estar sempre em execução. Os ataques DoS podem ser um componente de uma ofensiva maior. Os ataques DoS podem levar a problemas nos segmentos de rede dos computadores que estão sendo atacados. Historicamente, muitos ataques DoS foram provenientes de endereços falsificado.
+
+Os dispositivos de rede sem fio se conectam a um ponto de acesso (AP) ou WLC (Wireless LAN Controller) processando o padrão 802.11. O formato de quadro 802.11 é semelhante ao formato de quadro Ethernet, exceto que contém campos adicionais. Os dispositivos WLAN usam o acesso múltiplo com detecção de portadora com prevenção de colisão (CSMA / CA) como método para determinar como e quando enviar dados na rede. Para se conectar à WLAN, os dispositivos sem fio concluem um processo de três estágios para descobrir um AP sem fio, autenticar com o AP e associar com o AP. Os APs podem ser configurados de forma autônoma (individualmente) ou usando uma WLC para simplificar a configuração e o monitoramento de vários pontos de acesso.
+
+As redes sem fio são suscetíveis a ameaças, incluindo: interceptação de dados, invasores sem fio, ataques de negação de serviço e pontos de acesso não autorizados. Os ataques de DoS sem fio podem ser o resultado de: dispositivos configurados incorretamente, um usuário mal-intencionado interferindo intencionalmente na comunicação sem fio e interferências acidentais. Um ponto de acesso não autorizado é um ponto de acesso ou roteador sem fio que foi conectado a uma rede corporativa sem autorização explícita. Quando conectado, um atacante pode usar o ponto de acesso não autorizado para capturar endereços MAC, capturar pacotes de dados, obter acesso aos recursos de rede ou iniciar um ataque MITM. Em um ataque MITM, o atacante é posicionado entre duas entidades legítimas para ler ou modificar os dados que passam entre as duas partes. Um ataque MITM sem fio popular é chamado de "Ponto de acesso gêmeo do mal", em que um agente de ameaças introduz um ponto de acesso não autorizado e o configura com o mesmo SSID que um pnto de acesso legítimo. Para impedir a instalação de APs não autorizados, as organizações devem configurar WLCs com políticas de pontos de acesso não autorizados.
+
+Para manter os invasores sem fio afastados e proteger os dados, dois recursos de segurança anteriores ainda estão disponíveis na maioria dos roteadores e pontos de acesso: camuflagem SSID e filtragem de endereço MAC. Existem quatro técnicas de autenticação de chave compartilhada disponíveis: WEP, WPA, WPA2 e WPA3 (dispositivos com WPA3 ainda não estão prontamente disponíveis). Os roteadores domésticos geralmente têm duas opções para autenticação: WPA e WPA2. WPA2 é o mais forte dos dois. Criptografia é usada para proteger os dados. Os padrões WPA e WPA2 usam os seguintes protocolos de criptografia: TKIP e AES. Em redes com requisitos de segurança mais rígidos, é necessária uma autenticação ou login adicional para conceder acesso a clientes sem fio. A opção do modo de segurança corporativa requer um servidor RADIUS de autenticação, autorização e contabilidade (AAA - Authentication, Authorization, and Accounting).
+
+Existem vários tipos diferentes de firewalls. Os firewalls de filtragem de pacotes (sem estado) fornecem filtragem de Camada 3 e, por vezes, Camada 4. O design do firewall é principalmente sobre interfaces de dispositivo que permitem ou negam tráfego com base na origem, no destino e no tipo de tráfego. Um firewall de inspeção com estado permite ou bloqueia o tráfego com base no estado, na porta e no protocolo. Firewalls de gateway de aplicativo (firewall proxy) filtram informações nas Camadas 3, 4, 5 e 7. Os firewalls de próxima geração fornecem serviços adicionais além dos gateways de aplicações, como prevenção integrada de intrusões, reconhecimento e controle de aplicações para ver e bloquear aplicativos arriscados, acesso a futuros feeds de informações e técnicas para lidar com ameaças de segurança em evolução. Os sistemas de prevenção de intrusões (IPS) e os sistemas de detecção de intrusões (IDS) são usados para detectar potenciais riscos de segurança e alertar/parar tráfego inseguro. IDS/IPS pode ser implementado como baseado em host ou em rede, com vantagens e desvantagens específicas para cada implementação. Dispositivos de segurança especializados estão disponíveis, incluindo o Cisco Advanced Malware Protection (AMP), Cisco Web Security Appliance (WSA) e Cisco Email Security Appliance (WSA). Esses appliances de segurança utilizam os serviços do Cisco Talos Security Intelligence and Research Group. O Talos detecta e correlaciona ameaças em tempo real usando a maior rede de detecção de ameaças do mundo.
+
+Os serviços de segurança de rede incluem as seguintes tecnologias. ACLs são uma série de instruções que controlam se um dispositivo encaminha ou descarta pacotes com base nas informações encontradas no cabeçalho do pacote. O NTP sincroniza a hora do sistema em todos os dispositivos na rede para garantir um carimbo de data/hora preciso e consistente das mensagens do sistema. Os servidores Syslog compilam e fornecem acesso às mensagens do sistema geradas pelos dispositivos de rede. O SNMP permite que os administradores de rede monitorem e gerenciem o desempenho da rede, localizem e resolvam problemas de rede e planejem o crescimento da rede. O NetFlow fornece estatísticas sobre os pacotes que estão fluindo através de um roteador Cisco ou switch multicamadas. O espelhamento de porta é um recurso que permite que um switch faça cópias duplicadas do tráfego que está passando pelo switch e, em seguida, enviá-lo por uma porta que tenha um monitor de rede conectado. O AAA é uma estrutura para configurar serviços de autenticação, autorização e contabilidade do usuário. O AAA normalmente usa um servidor TACACS+ ou RADIUS para esse fim. VPNs são redes privadas criadas entre dois pontos de extremidade em uma rede pública.
+
+Para proteger um sistema operacional, os administradores devem remover todos os programas e serviços desnecessários e garantir que as correções de segurança e as atualizações estejam instaladas. Uma empresa deve estabelecer procedimentos para monitorar informações relacionadas à segurança, avaliar atualizações e instalar atualizações usando um plano documentado. Além disso, eles devem identificar possíveis vulnerabilidades ao estabelecer um parâmetro para comparar o desempenho de um sistema.
+
+Malware inclui vírus, worms, cavalos de Troia, keyloggers, spyware, e adware. Todos eles invadem a privacidade, roubam informações, danificam o sistema ou excluem e corrompem os dados. Use software antimalware confiável. Vírus sem arquivo usam linguagens de script como o Windows PowerShell e são difíceis de detectar. Linguagens de script como Python, Bash ou VBA podem ser usadas para criar malware. Remova o software não compatível imediatamente.
+
+Os patches são atualizações de código que os fabricantes fornecem para evitar que um vírus ou um worm recém-descoberto façam um ataque bem-sucedido. Patches e atualizações são frequentemente combinados em um service pack. Uma ferramenta de gerenciamento de patches pode ser usada para gerenciar patches localmente. Também é importante atualizar aplicativos de terceiros, como Adobe Acrobat, Java e Chrome, para lidar com vulnerabilidades. Um firewall baseado em host é executado em um dispositivo para restringir a atividade de rede de entrada e saída desse dispositivo. O software HIDS monitora chamadas e acesso ao sistema de arquivos para detectar solicitações mal-intencionadas. O HIPS monitora um dispositivo em busca de ataques e anomalias. O EDR monitora e coleta continuamente dados de um dispositivo de endpoint e, em seguida, analisa os dados e responde a todas as ameaças. As ferramentas de DLP garantem que dados confidenciais não sejam perdidos ou acessados por usuários não autorizados. O NGFW combina um firewall tradicional com outras funções de filtragem de dispositivos de rede. A criptografia é uma ferramenta usada para proteger os dados usando um algoritmo para transformar dados e torná-los ilegíveis.
+
+O recurso Windows Encrypting File System (EFS) permite que os usuários criptografem arquivos, pastas ou um disco rígido inteiro. A integridade de inicialização garante que o sistema seja confiável e não tenha sido alterado enquanto o sistema operacional é carregado. A inicialização segura é um padrão de segurança para garantir que um dispositivo inicialize usando software confiável. A inicialização medida pode identificar aplicativos não confiáveis que tentam carregar e também permite que o antimalware seja carregado mais cedo.
+
+Os administradores devem ter políticas e contramedidas em vigor para software não corrigido, downloads de usuários não autorizados, malware, dispositivos autônomos, violações de política de uso aceitável e mídia não autorizada. Proteja o equipamento físico com fechaduras de cabo, fechaduras de portas cifradas, gaiolas de Faraday para bloquear campos eletromagnéticos e etiquetas RFID para identificar e rastrear itens. Proteção Antimalware
+
+Os endpoints são hosts na rede que podem acessar ou ser acessados por outros hosts na rede. Com a IoT, outros tipos de dispositivos agora são endpoints. Cada ponto de extremidade é uma forma potencial de software malicioso ter acesso a uma rede. Nem todos os endpoints estão dentro de uma rede. Muitos endpoints se conectam a redes remotamente através de VPN. O perímetro da rede está sempre se expandindo. Vários dispositivos de segurança de rede são necessários para proteger o perímetro da rede contra acesso externo. Muitos ataques são originados de dentro da rede; portanto, proteger uma LAN interna também é importante. Depois que um host interno é infiltrado, ele pode se tornar um ponto de partida para um invasor obter acesso a dispositivos críticos do sistema. Há dois elementos de LAN internos para proteger: endpoints e infra-estrutura de rede.
+
+O Software Antivírus/Antimalware é instalado em um host para detectar e mitigar vírus e malware. Ele faz isso usando três abordagens diferentes, baseadas em assinaturas (usando várias características de arquivos de malware conhecidos), heurística (usando recursos gerais compartilhados por vários tipos de malware) e baseado em comportamento (usando uma análise de comportamento suspeito). Muitos programas antivírus são capazes de fornecer proteção em tempo real analisando dados conforme eles são usados pelo endpoint. Um Firewall baseado em host restringe as conexões de entrada e saída a conexões iniciadas somente por esse host. Alguns softwares de firewall também podem impedir que um host se infecte e impedir que hosts infectados espalhem malware para outros hosts. A maioria dos softwares de segurança baseados em host inclui funcionalidade de registro que é essencial para operações de segurança cibernética. A proteção de endpoints em uma rede sem fronteiras pode ser realizada usando técnicas baseadas em rede, bem como baseadas em host.
+
+Firewalls baseados em host podem usar um conjunto de políticas predefinidas, ou perfis, para controlar pacotes que entram e saem de um computador. Eles também podem ter regras que podem ser diretamente modificadas ou criadas para controlar o acesso com base em endereços, protocolos e portas. Eles também podem ser configurados para emitir alertas se um comportamento suspeito for detectado. O registro varia dependendo do aplicativo de firewall. Normalmente, inclui a data e a hora do evento, se a conexão foi permitida ou negada, informações sobre os endereços IP de origem ou destino dos pacotes e as portas de origem e destino dos segmentos encapsulados. (Os firewalls distribuídos combinam recursos de firewalls baseados em host com gerenciamento centralizado.)
+
+Alguns exemplos de firewalls baseados em host incluem Firewall do Windows Defender, iptables, nftables e TCP Wrappers. O HIDS protege os hosts contra malware conhecido e desconhecido. Pode realizar monitoramento e relatórios detalhados sobre a configuração do sistema e a atividade do aplicativo, análise de log, correlação de eventos, verificação de integridade, aplicação de políticas, detecção de rootkit e alertas. Um HIDS incluirá frequentemente um endpoint de servidor de gerenciamento. Como o software HIDS deve ser executado diretamente no host, ele é considerado um sistema baseado em agentes. Um HIDS usa estratégias proativas e reativas. Um HIDS pode impedir intrusões porque utiliza assinaturas para detectar malware conhecido e impedir que infecte um sistema.
+
+As assinaturas não são eficazes contra ameaças novas ou de dia zero. Além disso, algumas famílias de malware exibem polimorfismo. Estratégias adicionais para detectar a possibilidade de sucesso de um ataque, incluem detecção baseada em anomalias e detecção baseada em políticas.
+
+Uma superfície de ataque é a soma total das vulnerabilidades em um determinado sistema que é acessível a um invasor. Pode consistir em portas abertas em servidores ou hosts, software que está sendo executado em servidores voltados para a Internet, protocolos de rede sem fio, dispositivos remotos e até mesmo usuários. A superfície de ataque continua a expandir-se. Mais dispositivos estão se conectando a redes através da Internet das Coisas (IoT) e BYOD (Traga seu próprio aparelho).
+
+O Instituto SANS descreve três componentes da superfície de ataque: superfície de ataque de rede, superfície de ataque de software e superfície de ataque humano. Uma maneira de diminuir a superfície de ataque é limitar o acesso a ameaças potenciais criando listas de aplicativos proibidos. As listas brancas são criadas de acordo com uma linha de base de segurança estabelecida por uma organização. Sandboxing é uma técnica que permite que arquivos suspeitos sejam executados e analisados em um ambiente seguro. As sandboxes de análise automatizada de malware oferecem ferramentas que analisam o comportamento do malware. Essas ferramentas observam os efeitos da execução de malware desconhecido para que os recursos do comportamento de malware possam ser determinados e usados para criar defesas contra ele. O malware polimórfico muda com frequência e o novo malware aparece regularmente. O malware entrará na rede apesar dos sistemas de segurança baseados em host e perímetro mais robustos. HIDS e outros sistemas de detecção podem criar alertas sobre suspeita de malware que pode ter entrado na rede e executado em um host.
+
+A primeira dimensão do cubo de segurança cibernética identifica os objetivos para proteger o espaço cibernético. A confidencialidade dos dados impede a divulgação de informações a pessoas, recursos ou processos não autorizados. A integridade dos dados refere-se à precisão, consistência e confiabilidade dos dados. A disponibilidade de dados garante que as informações sejam acessíveis por usuários autorizados quando necessário. Use o acrônimo CIA para se lembrar desses três princípios. A segunda dimensão do cubo de segurança digital representa os três estados de dados possíveis: dados em trânsito, dados inativos ou armazenamento e dados em processo.
+
+A terceira dimensão do cubo de segurança cibernética define os pilares nos quais basear suas defesas de segurança cibernética. São eles: 1. tecnologia, 2. políticas e práticas, e 3. melhoria da educação, treinamento e conscientização das pessoas.
+
+Para obter confidencialidade sem usar criptografia, a tokenização é uma técnica de substituição que pode isolar os elementos de dados da exposição a outros sistemas de dados. O gerenciamento de direitos abrange o gerenciamento de direitos digitais (DRM) e o gerenciamento de direitos de informação (IRM). Ambos protegem os dados contra acesso não autorizado usando criptografia. Os tipos de informações confidenciais se dividem em três categorias: informações pessoais, informações comerciais e informações classificadas. Algumas empresas implantam tecnologias de aprimoramento da privacidade, incluindo anonimização, minimização de dados e tokenização para ajudar a resolver problemas de privacidade de dados.
+
+Integridade é a precisão, consistência e confiabilidade dos dados em todo o seu ciclo de vida. Os métodos usados para garantir a integridade de dados incluem hashing, verificações de validação de dados, verificações de consistência dos dados e controles de acesso. A disponibilidade garante que as informações possam ser acessadas sempre que necessário. As ações que ajudam a garantir a disponibilidade incluem manutenção de equipamentos, atualizações de software e patches, testes de backup, planejamento de desastres, implementações de novas tecnologias, monitoramento de atividades e testes de disponibilidade.
+
+A segurança das informações exige que os dados sejam protegidos em todos os três estados: inativos, em trânsito e em processo. Os dados estão em repouso quando nenhum usuário ou processo os está acessando, solicitando ou alterando. Os dados podem ser armazenados em DAS, RAID, NAS, SAN ou na nuvem. O local é vulnerável a ataques mal-intencionados no host local. Os dados inativos também incluem dados de backup (quando não estão sendo gravados ou em trânsito). Os backups podem ser manuais ou automáticos. Os sistemas de armazenamento em rede, incluindo RAID, SAN e NAS, proporcionam maior desempenho e redundância. Eles lidam com muitos dados, representando um risco maior para a organização se o dispositivo falhar. Os desafios dos sistemas de armazenamento em rede incluem configuração, testes e monitoramento do sistema.
+
+Dados em trânsito são dados que estão sendo transmitidos - não estão em repouso nem em uso. Uma rede de tênis usa mídia removível para mover fisicamente os dados de um computador para outro. As redes com fio incluem mídia de cobre e fibra óptica e podem atender a uma rede de área local (LAN) ou abranger grandes distâncias em redes de longa distância (WAN). As redes com e sem fio usam pacotes ou unidades de dados. Protocolos padrão como o protocolo de Internet (IP) e o protocolo de transferência de hipertexto (HTTP) definem a estrutura e a formação de pacotes de dados. Os cibercriminosos podem capturar, salvar e roubar dados em trânsito. Os profissionais de segurança digital podem implementar VPNs usando SSLs, IPsec e vários outros métodos de criptografia. Os criminosos virtuais podem interceptar e modificar dados em trânsito. Os profissionais de segurança cibernética implantam sistemas de integridade de dados que testam a integridade e a autenticidade dos dados transmitidos para combater essas ações. Esses sistemas incluem hash e redundância de dados. Os criminosos virtuais podem usar dispositivos falsos ou não autorizados para interromper a disponibilidade dos dados, capturando-os em trânsito. Os sistemas de autenticação mútua exigem que o usuário se autentique no servidor e solicitam que o servidor se autentique no usuário.
+
+Dados em processo (data in process) referem-se a dados durante a entrada inicial, modificação, computação ou saída
+
+A proteção da integridade de dados começa com a entrada inicial dos dados. As organizações usam vários métodos para coletar dados, como entrada manual de dados, digitalização de formulários, carregamentos de arquivos e dados coletados dos sensores.
+
+A corrupção durante o processo de entrada pode incluir rotulagem incorreta e formatos de dados incorretos ou incompatíveis, erros de entrada de dados ou sensores de sistema desconectados e/ou com mau funcionamento ou inoperantes. Quando dados são modificados de uma forma que impede que sejam legíveis ou utilizáveis, isso é chamado de corrupção de dados. Exemplos de corrupção dos dados de saída incluem o uso incorreto de delimitadores de dados, configurações de comunicação incorretas e configuração inadequada de impressoras. A modificação de dados inválida durante o processamento pode ter um impacto adverso, e é importante mitigar esses casos.
+
+Os administradores podem instalar as seguintes contramedidas ou proteções baseadas em software em hosts ou servidores individuais: firewalls de software, scanners de rede e porta, analisadores de protocolo, scanners de vulnerabilidade e IDS baseado em host. Um programa de conscientização de segurança e políticas de segurança sólidas e abrangentes são extremamente importantes. Torne o treinamento de conscientização de segurança uma parte do processo de integração do funcionário Vincule a conscientização de segurança aos requisitos do trabalho ou às avaliações de desempenho Realizar sessões de treinamento presenciais usando gamificação e atividades. Complete cursos e módulos on-line
+
+Um programa ativo de conscientização de segurança depende do ambiente e da rede da empresa, do nível de ameaça e da natureza e das demandas dos dados que a empresa mantém. O desenvolvimento da conscientização sobre segurança deve ser um processo contínuo porque novas ameaças e técnicas estão sempre surgindo.
+
+Uma política de segurança abrangente demonstra o compromisso de uma organização com a segurança. Ele define as regras para o comportamento esperado e garante consistência nas operações do sistema e aquisição, uso e manutenção de software e hardware. Ela define as consequências legais das violações e oferece à equipe de segurança o apoio do gerenciamento. Os tipos de políticas de segurança incluem identificação e autenticação, senhas, uso aceitável, acesso remoto, manutenção de rede e tratamento de incidentes.
+
+Os documentos de padrões fornecem as tecnologias necessárias para que usuários ou programas específicos. Além disso, eles especificam os requisitos ou critérios do programa que uma empresa deve seguir. Isso ajuda a equipe de TI melhorar a eficiência e simplicidade no design, manutenção e solução de problemas. Além das melhores práticas definidas por uma empresa, as diretrizes também estão disponíveis no seguinte: Centro de Recursos de Segurança de Computadores do National Institute of Standards and Technology (NIST), Guias de Configuração de Segurança da Agência de Segurança Nacional (NSA) e o padrão Common Criteria.
+
+Documentos de procedimentos são mais longos e mais detalhados que os padrões e diretrizes. Eles incluem detalhes de implementação que geralmente contêm instruções e gráficos passo a passo.

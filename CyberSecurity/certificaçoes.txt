@@ -1,0 +1,9 @@
+CCST - Esta certificação é destinada a estudantes do ensino médio e em início de faculdade, bem como àqueles interessados em uma mudança de carreira.
+
+CompTIA Security+ - Esta é uma certificação de segurança básica que atende aos requisitos da Diretiva 8570.01-M do Departamento de Defesa dos EUA, que é um item importante para quem procura trabalhar em segurança de TI para o governo federal.
+
+CEH - Esta certificação testa sua compreensão e conhecimento de como procurar fraquezas e vulnerabilidades em sistemas alvo usando o mesmo conhecimento e ferramentas de um hacker malicioso, mas de maneira legal e legítima.
+
+CISSP - Essa é a certificação de segurança mais conhecida e reconhecida. Para fazer o exame, você precisa ter pelo menos cinco anos de experiência relevante no setor.
+
+Cisco CyberOps - Essa certificação valida as habilidades exigidas dos analistas de cibersegurança de nível de associado nos centros de operações de segurança.

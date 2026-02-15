@@ -1,0 +1,1 @@
+quando ultrapassa o range do tipo long, coloca-se L ou l, para identificar um número literal ("constante")

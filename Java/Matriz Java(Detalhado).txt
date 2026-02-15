@@ -1,0 +1,5 @@
+int[][] mat = new int[N][N];
+int = tipo de dado
+[][] = indicar que é uma matriz
+mat = nome da matriz
+new int[][] = linhas e colunas, no caso N linhas e N colunas

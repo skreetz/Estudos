@@ -1,0 +1,8 @@
+double[] vet = new double[N];
+double = tipo de dados
+vet = vetor (nome)
+N = quantidade de linhas
+
+for ( i = 0; i < N; i++)
+percorrer todas a matriz
+vet[i] = vetor de i linhas 

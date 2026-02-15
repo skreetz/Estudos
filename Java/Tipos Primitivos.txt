@@ -1,0 +1,7 @@
+bytes = 127 até -128
+short = -32.768 até 32.767
+int = -2147483648 até 2147483647
+double = 1.7E +/- 308 (15 dígitos)
+long = -9.223.372.036.854.775.808 até 9.223.372.036.854.775.807
+
+int cabe no double MAS double não cabe no int

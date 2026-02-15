@@ -1,0 +1,62 @@
+
+TAGS
+<hr> - Linha Horizontal
+h1 - título NA pag
+b - negrito
+i - itálico
+mark - texto marcado
+big (obsoleto) - texto grande
+small - texto pequeno
+del - texto riscado
+ins - texto sublinhado
+sup - elevado
+sub - rebaixado
+code - fonte pra código
+pre - "identação"
+q - citação com aspas
+blockquote - citação de verdade 
+abbr - "referência"
+bdo - texto invertido
+ol - criar lista ordenada
+li - dentro do ol, para numerar a lista
+ol type - muda a forma de numeração da lista
+ul - criar lista NÃO ordenada
+ul type - muda o formato de numeração
+dl - iniciar um dicionário
+dt - termo
+dd - significado
+target="_blank" - abrir uma nova guia
+audio controls - controles do audio
+video controls - controles do video
+
+
+ctrl + shift + p 
+wrap with abbreviation
+enter
+tag a ser usada
+enter
+
+shift + tab - volta 
+segurar alt e clicar nas linhas para apagar simultaneamente
+
+ctrl + shift + p 
+wrap with abbreviation
+enter
+a
+fazer link
+target="_blank" rel="external"
+SEMPRE com esse final
+
+para navegação entre páginas
+rel="next" - na primeira página
+rel="prev" - na segunda página
+
+../ - voltar diretórios
+
+a href="diretorio/arquivod" download="arquivo"
+a href="diretorio/arquivod" download="arquivo" type="application/tipo de arquivo"
+
+adicionar CSS
+<style>body{aquivaiascoisas}</style>
+
+<link rel="stylesheet" href="style.css">

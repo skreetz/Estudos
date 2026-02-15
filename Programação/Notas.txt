@@ -1,0 +1,25 @@
+Vetores
+
+Podem ser indexad e homogênea
+
+Indexada: os elementos são acessados por meio de índices
+Homogênea: todos são do mesmo tipo
+
+SEMPRE são unidimensionais
+
+índices são posições, posição 0,1,2,3 etc
+
+vetor são de tamanhos FIXOS
+vetores são somente linhas
+sendo mais rápidos e eficientes
+vetores são chamados de arranjos/arrays
+
+vetor SEMPRE começa no 0
+
+Matrizes
+
+arranjos bidimensionais
+com linhas e colunas
+
+também possui quantidade de elementos fixos
+possui 2 dimensões (linhas e colunas) 
