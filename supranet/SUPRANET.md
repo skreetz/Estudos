@@ -38,7 +38,7 @@ SERVIÇOS ADICIONAIS
 🔸 Setupbox
             • Valor: R$180,00 podendo ser dividido de 2x sem juros.
 🔸 IP Fixo - Pessoa Física
-            • Valor: R$99,90/mensal
+            • Valor: R$109,90/mensal
 🔸 IP Fixo - Pessoa Jurídica 
             • Valor: R$59,90/mensal
 
