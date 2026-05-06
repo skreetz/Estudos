@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "710074b9427f1dfb",
+        "id": "ea53c135ffbc462a",
         "type": "tabs",
         "children": [
           {
-            "id": "e1e94dd46f09f755",
+            "id": "a9d68f425f3db040",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8c526c7e62429252",
@@ -183,6 +184,12 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "e1e94dd46f09f755",
-  "lastOpenFiles": []
+  "active": "a9d68f425f3db040",
+  "lastOpenFiles": [
+    "Sem título 1.md",
+    "Conceitos Básicos de Redes - CISCO.md",
+    "Sem título.md",
+    "Sem título.base",
+    "2026-05-06.md"
+  ]
 }

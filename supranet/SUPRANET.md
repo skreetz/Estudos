@@ -23,7 +23,7 @@ SERVIÇOS ADICIONAIS
 🔸 Deezer
             • Valor: R$19,90/mensal
 🔸 Max - Serie e Filmes
-            • Valor: R$27,90/mensal
+            • Valor: R$25,00/mensal
 🔸 Supraseg
             • Valor: R$29,90/mensal
             • R$100,00 Taxa de Adesão

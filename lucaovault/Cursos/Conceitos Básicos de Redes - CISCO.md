@@ -394,30 +394,15 @@ O endereço IPv4 é hierárquico e dividido em 2 partes, a rede e o host.
 
 Todo endereço IPv4 possui uma máscara de sub-rede que é usada para identificar a rede à qual o host está conectado.
 
-192.168.15.2
-
-De verde o número da rede
-
-De azul o número do host
-
-192.168.15.2
-
-│   │   │  └── Host (identifica o dispositivo)
-
-│   │   └──── Sub-rede (ou grupo de IPs dentro da rede)
-
-│   └──────── Parte da rede
-
-└──────────── Parte da rede
-
 - Endereço IP– Identifica o computador na rede.
-    
 - Máscara de Sub-rede - Identifica a rede à qual o host está conectado
-    
 - Gateway padrão – Identifica o dispositivo de rede que o host usa para acessar a Internet ou outra rede remota.
-    
 
-  
+Considere o IP: 192.168.1.25
+
+192.168 → parte da rede
+1 → sub-rede
+25 → host (dispositivo específico)
 
 Cada octeto (parte de 8 bits) do endereço IP pode variar de 0 a 255. Isso significa que o intervalo total de endereços IP válidos vai de 0.0.0.0 a 255.255.255.255.
 
@@ -425,32 +410,34 @@ Hosts na mesma rede, podem comunicar entre si, por estarem na mesma rede.
 
 O host A está na rede 172.16.0.0. Portanto, os dispositivos com os endereços IPv4 172.16.4.99 e 172.16.0.1 estão na mesma rede.
 
-Existem diferentes tipos de transmissão de pacotes IPv4, como unicast, broadcast e multicast.
+Existem diferentes tipos de transmissão de pacotes IPv4, como **unicast**, **broadcast** e **multicast**.
 
-O unicast refere-se a um dispositivo que envia uma mensagem para outro dispositivo em comunicação um-para-um, ou seja somente UM único destinatário. O endereço IP de origem só pode ser um endereço unicast, porque o pacote só pode originar-se de UMA única origem.
+> [!UNICAST]
+> Refere-se a um dispositivo que envia uma mensagem para outro dispositivo em comunicação um-para-um, ou seja somente UM único destinatário.
+> 
 
-Os endereços de host unicast IPv4 estão no intervalo de endereços de 1.1.1.1 a 223.255.255.255, porém dentro desses intervalos há muitos endereços já reservados para fins especiais.
-
-Quando um IPv4 possui / e algum número após, ele está se referindo a quantos bits a máscara de sub-rede possui. 
+Quando um IPv4 possui / e algum número após, ele está se referindo a quantos **bits** a **==máscara de sub-rede==** possui. 
 
 192.168.15.1/24
+Nesse caso, a máscara possui **24 bits**
 
-Nesse caso, a máscara possui 24 bits
+> [!Broadcast]
+> Refere-se a um dispositivo enviando uma mensagem para **todos** os dispositivos em uma rede, ou seja, comunicação de um para todos.
 
-O broadcast refere-se a um dispositivo enviando uma mensagem para todos os dispositivos em uma rede, ou seja, comunicação de um para todos.
+**O IPv4 USA broadcast, já o IPv6 NÃO usa broadcast**
 
-O IPv4 USA broadcast, já o IPv6 NÃO usa broadcast
+O broadcast pode ser **direcionado** ou **limitado** :
 
-O broadcast pode ser direcionado ou limitado, o direcionado é enviado para todos os hosts em uma sub-rede, já o limitado é enviado para todos os dispositivos da LAN.
+O **direcionado** é enviado para todos os hosts em uma **sub-rede**
+O **limitado** é enviado para todos os dispositivos da **LAN**
 
-(255.255.255.255)
+Pacotes de transmissão usam recursos na rede e fazem com que todos os hosts receptores da rede processem o pacote. 
+Portanto, o tráfego **broadcast** deve ser **limitado** para não prejudicar o desempenho da rede ou dos dispositivos. Como os roteadores separam domínios de broadcast, subdividir as redes pode melhorar seu desempenho ao eliminar o excesso de tráfego broadcast.
 
-Pacotes de transmissão usam recursos na rede e fazem com que todos os hosts receptores da rede processem o pacote. Portanto, o tráfego broadcast deve ser limitado para não prejudicar o desempenho da rede ou dos dispositivos. Como os roteadores separam domínios de broadcast, subdividir as redes pode melhorar seu desempenho ao eliminar o excesso de tráfego broadcast.
-
-O multicast transmite um único pacote para um conjunto de hosts selecionados que participem de um grupo multicast.
+> [!Multicast]
+> Transmite um **único** **pacote** para um conjunto de **hosts selecionados** que participem de um grupo multicast.
 
 Um pacote multicast, é um pacote com um endereço IP de destino que é um endereço multicast.
-
 Os hosts que recebem pacotes multicast específicos são chamados de clientes multicast.
 
 Cada grupo multicast é representado por um único endereço IPv4 multicast de destino. Quando um host IPv4 se inscreve em um grupo multicast, o host processa pacotes endereçados tanto a esse endereço multicast como a seu endereço unicast alocado exclusivamente.
@@ -637,3 +624,4 @@ O servidor DHCP atribui um endereço IPv4 automaticamente para cada host novo na
   
   
 **
+
