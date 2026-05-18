@@ -1,0 +1,10 @@
+# TROCAR DATA DE VENCIMENTO
+NÃO FAZ COM FATURA VENCIDA
+financeiro atendimento geral
+
+# TROCA DE ENDEREÇO SOMENTE TITULAR
+atendimento financeiro
+NÃO PODE COM BOLETO EM ATRASO
+
+# TROCA DE TITULARIDADE SOMENTE TITULAR
+financeiro atendimentos geral

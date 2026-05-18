@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ea53c135ffbc462a",
+        "id": "9447e84241963d51",
         "type": "tabs",
         "children": [
           {
-            "id": "a9d68f425f3db040",
+            "id": "4fdc512ababed633",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conceitos Básicos de Redes - CISCO.md",
+                "file": "Investimentos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Conceitos Básicos de Redes - CISCO"
+              "title": "Investimentos"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8c526c7e62429252",
@@ -184,12 +183,13 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "a9d68f425f3db040",
+  "active": "4fdc512ababed633",
   "lastOpenFiles": [
-    "Sem título 1.md",
+    "Investimentos.md",
     "Conceitos Básicos de Redes - CISCO.md",
-    "Sem título.md",
+    "Byte.md",
+    "2026-05-06.md",
     "Sem título.base",
-    "2026-05-06.md"
+    "Sem título 1.md"
   ]
 }

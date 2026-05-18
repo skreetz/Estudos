@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cursos/Conceitos Básicos de Redes - CISCO.md",
+                "file": "Cursos/Investimentos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Conceitos Básicos de Redes - CISCO"
+              "title": "Investimentos"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -160,27 +160,40 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
     }
   },
-  "active": "9f32b42e7f72c4a5",
+  "active": "e9427ece28a541fc",
   "lastOpenFiles": [
-    "Faculdade/Ciência de Dados.md",
-    "Faculdade/Sistemas Digitais.md",
-    "Faculdade/Teoria de Grafos.md",
-    "Faculdade/Aspectos Teóricos.md",
+    "Cursos/Sem título.md",
+    "Cursos/Investimentos.md",
     "Cursos/Conceitos Básicos de Redes - CISCO.md",
+    "Cursos/Byte.md",
+    "Cursos/2026-05-06.md",
+    "Faculdade/Teoria de Grafos.md",
+    "Faculdade/Sistemas Digitais.md",
+    "Faculdade/Ciência de Dados.md",
+    "Faculdade/Aspectos Teóricos.md",
+    "Cursos/Sem título 1.md",
+    "images/Pasted image 20250807123251.png",
+    "Supranet/N2.md",
+    "Supranet/Tutoriais SVA'S.md",
+    "Supranet/SUPRANET.md",
+    "Supranet/Mudanças.md",
+    "images/Pasted image 20250807135724.png",
+    "images/Pasted image 20250807122445.png",
+    "images/Pasted image 20250801192206.png",
+    "images",
     "Sistemas Digitais.pdf",
     "Dristributividade.md",
     "Octal.md",
     "Sistemas numéricos.md",
-    "images/Pasted image 20250801192206.png",
     "Ciência de Dados.pdf",
     "PROTOCOLOS.md",
     "Relacionais (SQL).md",
@@ -188,18 +201,12 @@
     "Largura de banda.md",
     "Dados Operacionais.md",
     "Dados Semi-estruturados.md",
-    "images/Pasted image 20250807135724.png",
-    "images/Pasted image 20250807123251.png",
-    "images/Pasted image 20250807122445.png",
-    "images",
     "Notação BNF.md",
     "Pasted image 20250801192032.png",
     "Pasted image 20250801192206.png",
     "Pasted image 20250731193941.png",
     "Data Mart (DM).md",
     "().md",
-    "Data Lake.md",
-    "Big Data.md",
     "Pasted image 20250731193947.png"
   ]
 }

@@ -198,65 +198,15 @@ As RFCs sobre padrões da Internet são publicadas e gerenciadas pelo IETF (Inte
 
 - **Acesso à rede** - Comunicação com o meio físico (Ethernet, Wi-Fi)
 
-  
 
-existem 2 tipos de modelos para descrever as funções que devem ocorrer para que as comunicações de rede sejam bem-sucedidas: modelos de protocolo e modelos de referência.
+O **TCP/IP** é um conjunto de protocolo usado nas comunicações de internet
 
-  
+O modelo **TCP/IP** é um método para visualizar as interações dos diversos protocolos que compõem o conjunto de protocolos TCP/IP, ele não descreve as funções gerais que são necessárias para todas as comunicações em rede. Ele descreve as funções de rede específicas para os protocolos em uso na pilha de protocolos TCP/IP
 
-modelo de protocolo - corresponde à estrutura de um conjunto específico de protocolo. um conjunto de protocolos inclui o conjutno de protocolos relacionados que normalmente fornecem toda a funcionalidades necessária para as pessoas se comunicarem com a rede de dados. O modelo TCP/IP é um modelo de protocolo porque descreve as funções que ocorrem em cada camada de protocolos dentro da suíte TCP/IP.
+> [!TCP vs UDP]
+> O protocolo TCP é usado para garantir a entrega confiável de informações
+> O protocolo UDP é usado para entregar dados sem garantir a entrega
 
-  
-
-modelo de referência - descreve as funções que devem ser concluídas em uma determinada camada, mas não especifica exatamente como uma função deve ser realizada. um modelo de referência não deve fornecer um nível suficiente de detalhes para definir com precisão como cada protocolo deve trabalhar em cada camada. a principal finalidade de um modelo de referência é ajudar a entender melhor as funções e os processos necessários para as comunicações de rede.
-
-  
-
-OSI (Organização Internacional de Padronização)
-
-  
-
-1 físico - os protocolos da camada física descrevem os meios mecânicos, elétricos funcionais e procedimentais para ativar, manter e desativar conexões físicas para uma transmissão de bits de e para um dispositivo de rede
-
-  
-
-2 enlace de dados - os protocolos da camada de enlace de dados descrevem métodos para a troca de quadros de dados entre os dispositivos em um meio físico comum.
-
-  
-
-3 rede - a camada de rede fornece serviços para trocar dados individuais pela rede entre dispositivos finais identificados
-
-  
-
-4 transporte - a camada de transporte define serviços para segmentar, transferir e reagrupar os dados para comunicações individuais entre os dispositivos finais
-
-  
-
-5 sessão - a camada de sessão fornece serviços à camada de apresentação para organizar o diálogo e gerenciar a troca de dados.
-
-  
-
-6 apresentação - a camada de apresentação fornece a representação comum de dados transferidos entre serviços da camada de aplicação
-
-  
-
-7 aplicação - a camada de aplicação contém protocolos usados para comunicações processo a processo.
-
-  
-
-o TCP/IP é um conjunto de protocolo usado nas comunicações de internet
-
-O modelo TCP/IP é um método para visualizar as interações dos diversos protocolos que compõem o conjunto de protocolos TCP/IP, ele não descreve as funções gerais que são necessárias para todas as comunicações em rede. Ele descreve as funções de rede específicas para os protocolos em uso na pilha de protocolos TCP/IP
-
-Os protocolos que compõem o TCP/IP pode ser descrito em termos no modelo OSI.
-
-As funções que ocorrem na cama de internet do modelo TCP/IP estão incluídas na camada de rede do modelo OSI
-
-  
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfOSHoB5Cee5onyNLDHpePElujdzH59qf_-uW6di3nfFdGD1uwtKawJsrjpm2iULYPAb4IYvvq2LFIoeYhfbr8uAgcHXwx_gs1hVzhBPBH_oDTjkM7mjxRYml8Ny2CTa255Y81KTg?key=Ilm-eBPMRP7iIekv_m9fmQ)![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcDBjgxRb5gL5xsnsCGFH2XrU3JdG6ALncTmg5m_HOY-SaHgmguLr0-JX4Tz7AsSk_vzAcz2pSqamjNRc6vGn4tUP30yFvi4YepERXbgR6esdRYCS3HeYInmjPrOdwy7UFYH6Jteg?key=Ilm-eBPMRP7iIekv_m9fmQ)
-
-O protocolo TCP é usado para garantir a entrega confiável de informações
 
 O protocolo Internet (IP) é usado pelos roteadores para encaminhar mensagens.
 
@@ -428,8 +378,10 @@ Nesse caso, a máscara possui **24 bits**
 
 O broadcast pode ser **direcionado** ou **limitado** :
 
-O **direcionado** é enviado para todos os hosts em uma **sub-rede**
-O **limitado** é enviado para todos os dispositivos da **LAN**
+> [!NOTE]
+> O **direcionado** é enviado para todos os hosts em uma **sub-rede** específica
+> O **limitado** é enviado para todos os dispositivos da **LAN**
+> 
 
 Pacotes de transmissão usam recursos na rede e fazem com que todos os hosts receptores da rede processem o pacote. 
 Portanto, o tráfego **broadcast** deve ser **limitado** para não prejudicar o desempenho da rede ou dos dispositivos. Como os roteadores separam domínios de broadcast, subdividir as redes pode melhorar seu desempenho ao eliminar o excesso de tráfego broadcast.
@@ -437,8 +389,8 @@ Portanto, o tráfego **broadcast** deve ser **limitado** para não prejudicar o 
 > [!Multicast]
 > Transmite um **único** **pacote** para um conjunto de **hosts selecionados** que participem de um grupo multicast.
 
-Um pacote multicast, é um pacote com um endereço IP de destino que é um endereço multicast.
-Os hosts que recebem pacotes multicast específicos são chamados de clientes multicast.
+Um **pacote multicast** é um pacote cujo endereço IP de destino pertence a um **grupo multicast**, ou seja, ele é enviado para vários dispositivos específicos ao mesmo tempo.
+Os hosts que **recebem** pacotes multicast específicos são chamados de **clientes multicast**.
 
 Cada grupo multicast é representado por um único endereço IPv4 multicast de destino. Quando um host IPv4 se inscreve em um grupo multicast, o host processa pacotes endereçados tanto a esse endereço multicast como a seu endereço unicast alocado exclusivamente.
 
