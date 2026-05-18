@@ -2,7 +2,7 @@
 Todo investimento é um **empréstimo**, seja para uma empresa, ou para o governo. 
 
 Existem 2 tipos principais de investimentos:
-- **Renda Fixa:** Na [[Renda Fixa]] você já sabe o **QUANTO** vai render, é dado o tempo de investimento e a % do valor aplicado.
+[[Renda Fixa]]
 - **Renda Variável:** Já na [[Renda Variável]] **NÃO** é prefixado o **QUANTO** vai render, pode gerar lucro ou pode gerar prejuízo e perder todo o valor aplicado.
 
 Para todo investimento é importante atentar-se á 3 quesitos:
@@ -54,6 +54,5 @@ Em muitos investimentos de renda fixa no Brasil, o **IR** segue uma tabela regre
 | 181 a 360 dias    | 20%      |
 | 361 a 720 dias    | 17,5%    |
 | Acima de 720 dias | 15%      |
-
 Ou seja:
 - quanto **mais tempo** deixa investido, **menor** o imposto.
