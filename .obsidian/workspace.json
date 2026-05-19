@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "ae5b2d4e16c8854d",
+    "id": "c707d8bf951e3075",
     "type": "split",
     "children": [
       {
-        "id": "9447e84241963d51",
+        "id": "f05d9a57d4751e78",
         "type": "tabs",
         "children": [
           {
-            "id": "4fdc512ababed633",
+            "id": "c64ddb888b9a56d2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Estudos/lucaovault/Cursos/Conceitos Básicos de Redes - CISCO.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Conceitos Básicos de Redes - CISCO"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "34578b9548adb84a",
+    "id": "817459365119c93d",
     "type": "split",
     "children": [
       {
-        "id": "0105d0573857dd8a",
+        "id": "e34a0b214e8fb3ec",
         "type": "tabs",
         "children": [
           {
-            "id": "8d1c4739d84bae76",
+            "id": "607c405cfcaa4807",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +48,7 @@
             }
           },
           {
-            "id": "a4dfcf5c9907e604",
+            "id": "09871064173712f5",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +65,7 @@
             }
           },
           {
-            "id": "8106f4b969bac5cb",
+            "id": "d629dbfe6da94ed7",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -74,23 +78,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "8c526c7e62429252",
+    "id": "56f14a965824003f",
     "type": "split",
     "children": [
       {
-        "id": "0516ea08af055cdd",
+        "id": "9e247848f138bcef",
         "type": "tabs",
         "children": [
           {
-            "id": "a60646a93389816f",
+            "id": "144775476d62d33a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conceitos Básicos de Redes - CISCO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,25 +103,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Conceitos Básicos de Redes - CISCO"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "e0ca2043b24ec376",
+            "id": "4bf0cec2fd3fc6d2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conceitos Básicos de Redes - CISCO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Conceitos Básicos de Redes - CISCO"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "db58506e6c2b2c48",
+            "id": "adba0ddbc06481bb",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,7 +135,7 @@
             }
           },
           {
-            "id": "b9a2b6b98bbc6d9b",
+            "id": "dccb4ea98ecec778",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -147,18 +149,17 @@
             }
           },
           {
-            "id": "0ff7a99b7b03a45b",
+            "id": "881ba841482afb02",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Conceitos Básicos de Redes - CISCO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Conceitos Básicos de Redes - CISCO"
+              "title": "Outline"
             }
           }
         ]
@@ -179,13 +180,8 @@
       "bases:Create new base": false
     }
   },
-  "active": "4fdc512ababed633",
+  "active": "c64ddb888b9a56d2",
   "lastOpenFiles": [
-    "Investimentos.md",
-    "Conceitos Básicos de Redes - CISCO.md",
-    "Byte.md",
-    "2026-05-06.md",
-    "Sem título.base",
-    "Sem título 1.md"
+    "Estudos/lucaovault/Cursos/Conceitos Básicos de Redes - CISCO.md"
   ]
 }
