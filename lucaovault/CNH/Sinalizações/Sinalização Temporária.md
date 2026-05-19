@@ -1,0 +1,5 @@
+Indicações **temporárias**, geralmente em obras. São sinalizações que aparecem e desaparecem conforme necessidade, podendo contar com cones (**dispositivos auxiliares**), semáforos, ou placas (na cor **LARANJA**) que representam caráter temporário.
+![[Pasted image 20260519115108.png]]
+## **Sinalização Temporária Quando Algo Diferente Está Acontecendo**
+As **sinalizações temporárias** são especiais porque não são permanentes. Elas aparecem **apenas durante o período necessário para a obra**, **manutenção ou evento**, e depois **desaparecem**. Por isso, mesmo que você passe pelo mesmo lugar todos os dias, precisa estar sempre atento: uma nova sinalização pode surgir da noite para o dia, como uma **placa laranja**, um **cavalete no chão** ou **cones** orientando o caminho durante um desvio ou obra.
+![[Pasted image 20260519144212.png]]
