@@ -4,53 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "980754708c14b982",
+        "id": "2a96a58b38ef2423",
         "type": "tabs",
         "children": [
           {
-            "id": "9f32b42e7f72c4a5",
+            "id": "80bf9186fb07eea7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Financeiro/Finanças.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Finanças"
-            }
-          },
-          {
-            "id": "981161ac6f3588d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Financeiro/Finanças.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Finanças"
-            }
-          },
-          {
-            "id": "af4ba9481605187b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Financeiro/Renda Fixa.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Renda Fixa"
+              "title": "Nova aba"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,8 +165,11 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "af4ba9481605187b",
+  "active": "80bf9186fb07eea7",
   "lastOpenFiles": [
+    "CNH/CNH do Brasil.md",
+    "Financeiro/Renda Fixa.md",
+    "Financeiro/Finanças.md",
     "images/{F3E5B1E9-0FA4-43CB-8B04-78602288E10D}.png",
     "images/{D220022D-3A02-474B-BD4B-2B08457FB061}.png",
     "images/{BA3441CF-247D-45BC-88CB-3A7E79666991}.png",
@@ -210,7 +180,6 @@
     "images/Pasted image 20260519144445.png",
     "images/Pasted image 20260519144419.png",
     "images/Pasted image 20260519144216.png",
-    "images/Pasted image 20260519144212.png",
     "Redes/Conceitos Básicos de Redes - CISCO.md",
     "Redes",
     "CNH/Sinalizações/Sinalização Vertical.md",
@@ -224,10 +193,7 @@
     "CNH/Placas/Placas de Indicação.md",
     "CNH/Sinalizações",
     "CNH/Placas",
-    "CNH/CNH do Brasil.md",
     "CNH",
-    "Financeiro/Finanças.md",
-    "Financeiro/Renda Fixa.md",
     "Financeiro",
     "Liquidez.md",
     "Cursos/Sem título.md",
