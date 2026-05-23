@@ -1,0 +1,1 @@
+Fazem a ponte entre as ruazinhas dos bairros e as grandes avenidas. A **velocidade máxima: 40 km/h.**

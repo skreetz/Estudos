@@ -1,0 +1,1 @@
+Se você e**stá numa rodovia** e **outro veículo** vem de uma **via menor**, **você passa primeiro**. Mas atenção: isso só vale quando apenas **um dos fluxos é rodoviário**.

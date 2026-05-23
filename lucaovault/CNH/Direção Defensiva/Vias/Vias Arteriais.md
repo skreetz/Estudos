@@ -1,0 +1,1 @@
+Essas são as avenidas importantes que **ligam os principais bairros da cidade**. Recebem bastante fluxo de veículos, têm vários semáforos e faixas de pedestres. A **velocidade máxima é de 60 km/h**.

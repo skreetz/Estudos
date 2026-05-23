@@ -1,4 +1,3 @@
-Existem alguns tipos de sinalizações sendo eles:
 
 [[Sinalização Vertical]]
 [[Sinalização Horizontal]]
@@ -6,7 +5,9 @@ Existem alguns tipos de sinalizações sendo eles:
 [[Sinalização Cicloviária]]
 [[Dispositivos Auxiliares]]
 [[Sinalização Temporária]]
-[[Cores]]
-[[Caminhos]]
+[[Infrações e penalidades]]
+[[Direção Defensiva]]
+
 ## **A Hierarquia da Sinalização: Quem Manda Quando Todos Falam Juntos?**
 ![[Pasted image 20260519144612.png]]
+

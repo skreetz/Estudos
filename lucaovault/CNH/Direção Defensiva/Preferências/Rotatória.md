@@ -1,0 +1,1 @@
+Quem já **está dentro dela tem preferência sobre quem está entrando**.

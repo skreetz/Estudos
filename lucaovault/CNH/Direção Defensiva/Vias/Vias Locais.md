@@ -1,0 +1,1 @@
+São as **ruas do seu bairro**, onde ficam as casas, as escolas do quarteirão, a padaria da esquina. Aqui a **velocidade máxima 30 km/h**.
