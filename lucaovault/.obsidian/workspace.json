@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CNH/RESUMÃO - VIAS.md",
+                "file": "Supranet/SUPRANET.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RESUMÃO - VIAS"
+              "title": "SUPRANET"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CNH/RESUMÃO - VIAS.md",
+                "file": "Supranet/SUPRANET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para RESUMÃO - VIAS"
+              "title": "Links inversos para SUPRANET"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CNH/RESUMÃO - VIAS.md",
+                "file": "Supranet/SUPRANET.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de RESUMÃO - VIAS"
+              "title": "Sumário de SUPRANET"
             }
           }
         ],
@@ -156,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,9 +172,11 @@
   },
   "active": "0d8b659c151d93df",
   "lastOpenFiles": [
+    "Supranet/Mudanças.md",
+    "Supranet/N2.md",
+    "CNH/RESUMÃO - VIAS.md",
     "CNH/RESUMÃO - DEFENSIVA.md",
     "CNH/RESUMÃO - PLACAS.md",
-    "CNH/RESUMÃO - VIAS.md",
     "CNH/Placas/Placas de Indicação.md",
     "CNH/Placas/Placas de Regulamentação.md",
     "CNH/Infrações e Penalidades/Tipos de infrações/gravíssima.md",
@@ -199,9 +202,7 @@
     "CNH/Infrações e Penalidades/Penalidade.md",
     "CNH/Infrações e Penalidades/Medida Administrativa.md",
     "CNH/Infrações e Penalidades/Infrações e penalidades.md",
-    "CNH/Infrações e Penalidades/Crime de Trânsito.md",
     "CNH/Infrações e Penalidades",
-    "CNH/Direção Defensiva/Vias/Vias Locais.md",
     "CNH/Direção Defensiva/Vias",
     "CNH/Direção Defensiva/Preferências",
     "CNH/Direção Defensiva/Conversões",
