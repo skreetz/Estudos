@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "80bf9186fb07eea7",
+            "id": "c0d7a68ee595f921",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Supranet/SUPRANET.md",
+                "file": "CNH/RESUMÃO - DEFENSIVA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SUPRANET"
+              "title": "RESUMÃO - DEFENSIVA"
+            }
+          },
+          {
+            "id": "30cab8a52c5e7142",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CNH/RESUMÃO - VIAS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RESUMÃO - VIAS"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,8 +184,22 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "80bf9186fb07eea7",
+  "active": "30cab8a52c5e7142",
   "lastOpenFiles": [
+    "CNH/RESUMÃO - INFRAÇÕES.md",
+    "CNH/RESUMÃO - DEFENSIVA.md",
+    "CNH/RESUMÃO - VIAS.md",
+    "CNH/RESUMÃO - SINALIZAÇÕES.md",
+    "CNH/RESUMÃO - PLACAS.md",
+    "CNH/Cuidados e Primeiros Socorros/Sinistros com vítimas.md",
+    "CNH/Cuidados e Primeiros Socorros/Sinistros sem vítimas.md",
+    "CNH/Cuidados e Primeiros Socorros/Cuidados e Primeiros Socorros.md",
+    "images/Pasted image 20260525105548.png",
+    "images/Pasted image 20260525105523.png",
+    "CNH/Direção Defensiva/Direção Defensiva.md",
+    "CNH/Cuidados e Primeiros Socorros",
+    "CNH/CNH do Brasil.md",
+    "Supranet/SUPRANET.md",
     "CNH/Infrações e Penalidades/Tipos de infrações/médias.md",
     "CNH/Infrações e Penalidades/Tipos de infrações/leve.md",
     "CNH/Infrações e Penalidades/Tipos de infrações/gravíssima.md",
@@ -188,20 +217,10 @@
     "CNH/Direção Defensiva/Preferências/Rotatória.md",
     "CNH/Direção Defensiva/Preferências/Rodovia.md",
     "CNH/Direção Defensiva/Conversões/Conversão á Direita.md",
-    "CNH/Direção Defensiva/Conversões/Conversão à Esquerda.md",
     "CNH/Direção Defensiva/Vias",
     "CNH/Direção Defensiva/Preferências",
-    "CNH/Direção Defensiva/Direção Defensiva.md",
     "CNH/Direção Defensiva/Conversões",
     "CNH/Direção Defensiva",
-    "Supranet/N2.md",
-    "Supranet/Tutorias VOALLE.md",
-    "Supranet/Tutoriais SVA'S.md",
-    "Supranet/SUPRANET.md",
-    "Supranet/Mudanças.md",
-    "CNH/CNH do Brasil.md",
-    "Financeiro/Renda Fixa.md",
-    "Financeiro/Finanças.md",
     "images/{F3E5B1E9-0FA4-43CB-8B04-78602288E10D}.png",
     "images/{D220022D-3A02-474B-BD4B-2B08457FB061}.png",
     "images/{BA3441CF-247D-45BC-88CB-3A7E79666991}.png",
@@ -210,12 +229,8 @@
     "images/Untitled 1.png",
     "images/Pasted image 20260519144612.png",
     "images/Pasted image 20260519144445.png",
-    "images/Pasted image 20260519144419.png",
-    "images/Pasted image 20260519144216.png",
-    "Redes/Conceitos Básicos de Redes - CISCO.md",
     "Redes",
     "CNH/Sinalizações",
-    "CNH/Placas",
-    "CNH"
+    "CNH/Placas"
   ]
 }
