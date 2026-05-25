@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2b90425c3c87247f",
+        "id": "cd5b6add7a934b6a",
         "type": "tabs",
         "children": [
           {
-            "id": "0d8b659c151d93df",
+            "id": "846313122ebae427",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Supranet/SUPRANET.md",
+                "file": "CNH/RESUMÃO - DEFENSIVA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SUPRANET"
+              "title": "RESUMÃO - DEFENSIVA"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Supranet/SUPRANET.md",
+                "file": "CNH/RESUMÃO - DEFENSIVA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para SUPRANET"
+              "title": "Links inversos para RESUMÃO - DEFENSIVA"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Supranet/SUPRANET.md",
+                "file": "CNH/RESUMÃO - DEFENSIVA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de SUPRANET"
+              "title": "Sumário de RESUMÃO - DEFENSIVA"
             }
           }
         ],
@@ -167,24 +167,28 @@
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Criar nova base": false
+      "bases:Criar nova base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d8b659c151d93df",
+  "active": "846313122ebae427",
   "lastOpenFiles": [
+    "DICAS.md",
+    "CNH/RESUMÃO - DEFENSIVA.md",
+    "CNH/RESUMÃO - INFRAÇÕES.md",
+    "CNH/RESUMÃO - PLACAS.md",
+    "CNH/RESUMÃO - VIAS.md",
+    "CNH/DICAS.md",
+    "CNH/CNH do Brasil.md",
+    "Supranet/SUPRANET.md",
     "Supranet/Mudanças.md",
     "Supranet/N2.md",
-    "CNH/RESUMÃO - VIAS.md",
-    "CNH/RESUMÃO - DEFENSIVA.md",
-    "CNH/RESUMÃO - PLACAS.md",
     "CNH/Placas/Placas de Indicação.md",
     "CNH/Placas/Placas de Regulamentação.md",
     "CNH/Infrações e Penalidades/Tipos de infrações/gravíssima.md",
     "CNH/Placas/Placas de Advertência.md",
     "CNH/RESUMÃO - SINALIZAÇÕES.md",
-    "CNH/CNH do Brasil.md",
     "CNH/RESUMÃO - SIGLAS.md",
-    "CNH/RESUMÃO - INFRAÇÕES.md",
     "Redes/Conceitos Básicos de Redes - CISCO.md",
     "CNH/Cuidados e Primeiros Socorros/Sinistros com vítimas.md",
     "CNH/Cuidados e Primeiros Socorros/Sinistros sem vítimas.md",
@@ -193,15 +197,12 @@
     "images/Pasted image 20260525105523.png",
     "CNH/Direção Defensiva/Direção Defensiva.md",
     "CNH/Cuidados e Primeiros Socorros",
-    "Supranet/SUPRANET.md",
     "CNH/Infrações e Penalidades/Tipos de infrações/médias.md",
     "CNH/Infrações e Penalidades/Tipos de infrações/leve.md",
     "CNH/Infrações e Penalidades/Tipos de infrações/grave.md",
     "CNH/Infrações e Penalidades/Tipos de infrações",
     "CNH/Infrações e Penalidades/Pontuação na Carteira.md",
     "CNH/Infrações e Penalidades/Penalidade.md",
-    "CNH/Infrações e Penalidades/Medida Administrativa.md",
-    "CNH/Infrações e Penalidades/Infrações e penalidades.md",
     "CNH/Infrações e Penalidades",
     "CNH/Direção Defensiva/Vias",
     "CNH/Direção Defensiva/Preferências",
