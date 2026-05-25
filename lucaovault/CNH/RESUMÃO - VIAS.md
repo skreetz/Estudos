@@ -16,6 +16,12 @@
 - **Limite de velocidade:** 80 km/h, quando não houver sinalização.
 - **Regra:** via destinada ao fluxo rápido de veículos, sem cruzamentos em nível, sem semáforos e com acesso controlado.
 - **Exemplo:** marginais e vias expressas.
+
+
+> [!NOTE] Title
+> A velocidade **mínima** é sempre 50% da velocidade **máxima**
+> 
+
 # Resumo Rápido
 
 | Tipo de Via | Velocidade Máxima (sem placa) | Função |

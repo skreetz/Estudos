@@ -19,7 +19,6 @@ A **direção defensiva** é a forma de dirigir com atenção, cuidado e preven�
 
 > [!SIGLA]
 > APDH
-
 ## Condições Adversas
 São fatores que aumentam os riscos no trânsito.
 ### Exemplos

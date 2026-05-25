@@ -7,7 +7,6 @@
 [[Sinalização Temporária]]
 [[Infrações e penalidades]]
 [[Direção Defensiva]]
-
-## **A Hierarquia da Sinalização: Quem Manda Quando Todos Falam Juntos?**
+## **A Hierarquia da Sinalização**
 ![[Pasted image 20260519144612.png]]
 
