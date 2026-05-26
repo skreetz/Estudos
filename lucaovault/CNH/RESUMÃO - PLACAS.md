@@ -1,6 +1,11 @@
 # Resumão das Placas de Trânsito
 
 As placas de trânsito servem para organizar, orientar e garantir segurança no trânsito.
+
+
+> [!NOTE] *Lembrete*
+> SEMPRE lê-se a placa de **baixo pra cima**
+
 ## Tipos de Placas
 
 - [[Placas de Regulamentação]]

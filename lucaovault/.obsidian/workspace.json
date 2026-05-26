@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CNH/RESUMÃO - DEFENSIVA.md",
-                "mode": "source",
+                "file": "CNH/CNH do Brasil.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RESUMÃO - DEFENSIVA"
+              "title": "CNH do Brasil"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CNH/RESUMÃO - DEFENSIVA.md",
+                "file": "CNH/RESUMÃO - VIAS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para RESUMÃO - DEFENSIVA"
+              "title": "Links inversos para RESUMÃO - VIAS"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CNH/RESUMÃO - DEFENSIVA.md",
+                "file": "CNH/RESUMÃO - VIAS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de RESUMÃO - DEFENSIVA"
+              "title": "Sumário de RESUMÃO - VIAS"
             }
           }
         ],
@@ -173,13 +173,13 @@
   },
   "active": "846313122ebae427",
   "lastOpenFiles": [
-    "CNH/RESUMÃO - VIAS.md",
     "CNH/RESUMÃO - SINALIZAÇÕES.md",
-    "CNH/RESUMÃO - DEFENSIVA.md",
-    "CNH/RESUMÃO - SIGLAS.md",
     "CNH/RESUMÃO - PLACAS.md",
-    "CNH/RESUMÃO - INFRAÇÕES.md",
+    "CNH/RESUMÃO - VIAS.md",
+    "CNH/RESUMÃO - DEFENSIVA.md",
     "DICAS.md",
+    "CNH/RESUMÃO - SIGLAS.md",
+    "CNH/RESUMÃO - INFRAÇÕES.md",
     "CNH/DICAS.md",
     "CNH/CNH do Brasil.md",
     "Supranet/SUPRANET.md",

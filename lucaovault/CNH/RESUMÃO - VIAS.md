@@ -17,11 +17,17 @@
 - **Regra:** via destinada ao fluxo rápido de veículos, sem cruzamentos em nível, sem semáforos e com acesso controlado.
 - **Exemplo:** marginais e vias expressas.
 
-
 > [!NOTE] *Lembrete*
 > A velocidade **mínima** é sempre 50% da velocidade **máxima**
 > 
 
+> [!NOTE] *Lembrete*
+> LCAT
+> Local - 30km/h
+> Coletora - 40km/h
+> Arterial - 60km/h
+> Trânsito Rápido - 80km/h
+> 
 # Resumo Rápido
 
 | Tipo de Via | Velocidade Máxima (sem placa) | Função |
