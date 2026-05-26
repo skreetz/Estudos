@@ -51,12 +51,10 @@ As placas de trânsito servem para organizar, orientar e garantir segurança no 
 | Branco   | regulamentação                  |
 | Preto    | símbolos e informações          |
 
----
-
 # Dicas para a Prova
 
-- placas vermelhas = regras e proibições
-- placas amarelas = perigo ou atenção
-- placas azuis/verdes = orientação
+- **placas vermelhas** = regras e proibições
+- **placas amarelas** = perigo ou atenção
+- **placas azuis/verdes** = orientação
 - placa “PARE” possui formato octogonal
-- advertência normalmente possui formato de losango
+- **advertência** normalmente possui formato de losango

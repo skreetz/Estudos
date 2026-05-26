@@ -18,7 +18,7 @@
 - **Exemplo:** marginais e vias expressas.
 
 
-> [!NOTE] Title
+> [!NOTE] *Lembrete*
 > A velocidade **mínima** é sempre 50% da velocidade **máxima**
 > 
 
