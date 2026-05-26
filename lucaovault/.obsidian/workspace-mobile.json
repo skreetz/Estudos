@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Faculdade/Sistemas Digitais.md",
-                "mode": "source",
+                "file": "CNH/RESUMÃO - INFRAÇÕES.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sistemas Digitais"
+              "title": "RESUMÃO - INFRAÇÕES"
             }
           }
         ]
@@ -153,6 +153,14 @@
   },
   "active": "66a1b5763ac0b579",
   "lastOpenFiles": [
+    "CNH/Placas/Placas de Advertência.md",
+    "CNH/Placas/Placas de Regulamentação.md",
+    "CNH/Sinalizações/Sinalização Cicloviária.md",
+    "CNH/RESUMÃO - VIAS.md",
+    "CNH/RESUMÃO - SINALIZAÇÕES.md",
+    "CNH/RESUMÃO - INFRAÇÕES.md",
+    "CNH/RESUMÃO - DEFENSIVA.md",
+    "Faculdade/Sistemas Digitais.md",
     "Sistemas Digitais.md",
     "Cursos",
     "Faculdade"
