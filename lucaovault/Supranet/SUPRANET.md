@@ -62,3 +62,6 @@ SERVIÇOS ADICIONAIS
 🔸 IP Fixo - Pessoa Jurídica 
             • Valor: R$59,90/mensal
 
+DISNEY - 2 TELAS SEM ANÚNCIOS
+
+
