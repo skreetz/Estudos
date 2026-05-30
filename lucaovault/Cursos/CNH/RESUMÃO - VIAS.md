@@ -16,6 +16,23 @@
 - **Limite de velocidade:** 80 km/h, quando não houver sinalização.
 - **Regra:** via destinada ao fluxo rápido de veículos, sem cruzamentos em nível, sem semáforos e com acesso controlado.
 - **Exemplo:** marginais e vias expressas.
+## Via Rural
+- **Limite de velocidade:** varia conforme o tipo de via e a sinalização existente.
+- **Regra:** via localizada fora do perímetro urbano, destinada à circulação de veículos, pessoas e animais.
+- **Exemplo:** rodovias e estradas.
+## **Rodovia**
+**Limite de velocidade:** conforme sinalização da via.
+**Regra:** via rural pavimentada destinada ao tráfego entre cidades e regiões.
+**Exemplo:** rodovias federais e estaduais asfaltadas.
+
+```
+Em pista SIMPLES a velocidade máxima é de 100km/h
+Em pista DUPLA a velocidade máxima é de 110km/h
+```
+## **Estrada**
+**Limite de velocidade:** 60 km/h, quando não houver sinalização.
+**Regra:** via rural não pavimentada destinada à circulação de veículos, pessoas e animais.
+**Exemplo:** estradas de terra e vias de acesso a áreas rurais.
 
 > [!NOTE] *Lembrete*
 > A velocidade **mínima** é sempre 50% da velocidade **máxima**
