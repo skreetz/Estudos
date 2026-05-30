@@ -23,8 +23,8 @@ Uma **NIC (Network Interface Card)** é o componente de **hardware** ou **softwa
 Cada **NIC** possui um identificador chamado [[Endereço MAC]]
 ## Observações
 - Um dispositivo pode possuir várias NICs.
-- Cada NIC possui seu próprio endereço MAC.
-- O endereço MAC identifica a interface de rede, não necessariamente o dispositivo inteiro.
+- **Cada NIC possui seu próprio [[Endereço MAC]]**.
+- O endereço MAC **identifica** a interface de rede, não necessariamente o **dispositivo** inteiro.
 ## Exemplos
 - Placa Ethernet integrada à placa-mãe.
 - Adaptador USB Wi-Fi.

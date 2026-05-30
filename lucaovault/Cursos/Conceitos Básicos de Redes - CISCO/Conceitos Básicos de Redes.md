@@ -1,8 +1,24 @@
+# Conceitos Básicos de Redes
 
+## Fundamentos
 [[Bit]]
 [[Byte]] 
 [[Mídia]]
+## Transmissão
+[[Sinais sem fio]]
+[[Sinais ópticos]]
+[[Sinais elétricos]]
+## Endereçamento
+[[Endereço IP]]
 [[Endereço MAC]] 
+## Redes 
+[[Ethernet]]
+[[LAN]]
+[[Wi-Fi]]
+## Dispositivos
+[[NICs]]
+[[Roteador]]
+[[Switch]]
 
 > [!NOTE] *Lembrete*
 > Kbps = **MILHARES** de *bits* por segundo
@@ -15,12 +31,6 @@
 A **quantidade de dados**, o **tipo de dados** e a **latência da rede** são combinados para fazer com que a taxa de transferência não corresponda à largura de banda.
 
 A **largura de banda** costuma ser medida pelo número de bits que (teoricamente) podem ser enviados através do meio físico em um segundo.
-
-[[Dados voluntários]] – São criados e compartilhados explicitamente por indivíduos, como perfis de redes sociais. Esses tipos de dados podem incluir arquivos de vídeo, texto, imagem ou áudio.
-
-[[Dados observados]] – São capturados quando indivíduos registram suas atividades, como dados de localização de celulares.
-
-[[Dados inferidos]] – São baseados na análise de dados voluntários ou observados, como uma pontuação de crédito.
  
 **Todos** os computadores conectados a uma rede que participam diretamente na comunicação de rede são classificados como hosts. Os **hosts** podem **enviar** e **receber** mensagens na rede. Nas redes modernas, um **host** pode atuar como **cliente, servidor ou ambos**. O **software** **instalado** no computador determina qual função o computador desempenha.
 
@@ -54,7 +64,6 @@ Um canal é usado para **chamadas telefônicas**. Esse canal permite que um indi
 Um **segundo canal** é um canal de **download mais rápido**, usado para *receber informações da Internet*.
 
 O **terceiro canal** é usado para *enviar ou carregar informações*. Esse canal geralmente **é um pouco mais lento do que o canal de download**. A **qualidade** e a **velocidade** da conexão **DSL** *depende principalmente da qualidade da linha telefônica e da distância da central telefônica da operadora de telefonia*. Quanto **mais longe** você estiver da central telefônica, **mais lenta** será a conexão.
-
 
 Os softwares de **cliente** e **de** servidor geralmente são executados em **computadores separados**, mas também é possível que **um computador** execute as *duas funções* ao mesmo tempo.
 
