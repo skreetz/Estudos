@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "cd5b6add7a934b6a",
+        "id": "049d035bb3f89a6b",
         "type": "tabs",
         "children": [
           {
-            "id": "846313122ebae427",
+            "id": "5aa957d92fe3a6d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CNH/CNH do Brasil.md",
+                "file": "Cursos/Conceitos Básicos de Redes - CISCO/Redes/LAN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CNH do Brasil"
+              "title": "LAN"
+            }
+          },
+          {
+            "id": "79c63670ad60e89c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cursos/Conceitos Básicos de Redes - CISCO/Conceitos Básicos de Redes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Conceitos Básicos de Redes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -61,7 +76,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Procurar"
             }
           },
           {
@@ -78,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 320.5
   },
   "right": {
     "id": "23dd3157bd5707ff",
@@ -113,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Digitais.md",
+                "file": "Cursos/Conceitos Básicos de Redes - CISCO/Conceitos Básicos de Redes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Sistemas Digitais"
+              "title": "Links de saída para Conceitos Básicos de Redes"
             }
           },
           {
@@ -150,13 +165,23 @@
               "icon": "lucide-list",
               "title": "Sumário de RESUMÃO - VIAS"
             }
+          },
+          {
+            "id": "feba586fe3bfbce7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -171,53 +196,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "846313122ebae427",
+  "active": "e9427ece28a541fc",
   "lastOpenFiles": [
-    "CNH/RESUMÃO - SINALIZAÇÕES.md",
-    "CNH/RESUMÃO - PLACAS.md",
-    "CNH/RESUMÃO - VIAS.md",
-    "CNH/RESUMÃO - DEFENSIVA.md",
-    "DICAS.md",
-    "CNH/RESUMÃO - SIGLAS.md",
-    "CNH/RESUMÃO - INFRAÇÕES.md",
-    "CNH/DICAS.md",
-    "CNH/CNH do Brasil.md",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Dispositivos/Roteador.md",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Dispositivos/NICs.md",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Dispositivos/Switch.md",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Endereçamento/Endereço MAC.md",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Endereçamento/Endereço IP.md",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Redes/LAN.md",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Endereçamento",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Redes/WAN.md",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Redes/Wi-Fi.md",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Dispositivos",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Redes/Ethernet.md",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Fundamentos/Mídia.md",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Conceitos Básicos de Redes.md",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Transmissão/Sinais elétricos.md",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Transmissão/Sinais ópticos.md",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Fundamentos/Byte.md",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Fundamentos/Bit.md",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Redes",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Fundamentos",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Transmissão/Sinais sem fio.md",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Transmissão",
+    "Cursos/CNH/RESUMÃO - DEFENSIVA.md",
+    "Cursos/CNH/RESUMÃO - SINALIZAÇÕES.md",
+    "Cursos/CNH/RESUMÃO - VIAS.md",
+    "Cursos/CNH/Direção Defensiva/Direção Defensiva.md",
+    "Cursos/CNH/RESUMÃO - INFRAÇÕES.md",
+    "Cursos/CNH/RESUMÃO - PLACAS.md",
+    "images/{FDA94C1D-63FD-4078-9FBA-296EE42600A8}.png",
+    "images/Pasted image 20260530132334.png",
+    "images/{FB2EA1FF-247C-4BE6-A353-047A3D965001}.png",
+    "{DD60CEE2-1913-47BD-8FAC-8830954FC924}.png",
+    "images/{60FED9CA-D1BB-43FA-96B7-F8D4384ACDDE} 1.png",
+    "images/{60FED9CA-D1BB-43FA-96B7-F8D4384ACDDE}.png",
+    "images/{49FE246B-0A27-4AF1-A494-10C28F917B5B}.png",
+    "images/{23824B12-6372-4030-9B56-0B7CF981A211}.png",
+    "images/{A1FFE749-46B6-4977-8835-47D511BB0FA8}.png",
+    "images/{8AD06A40-EB9F-4ECF-AEBE-DB3E5BD225C9}.png",
+    "Cursos/CNH/RESUMÃO - SIGLAS.md",
+    "Supranet/Tutorias VOALLE.md",
     "Supranet/SUPRANET.md",
-    "Supranet/Mudanças.md",
     "Supranet/N2.md",
-    "CNH/Placas/Placas de Indicação.md",
-    "CNH/Placas/Placas de Regulamentação.md",
-    "CNH/Infrações e Penalidades/Tipos de infrações/gravíssima.md",
-    "CNH/Placas/Placas de Advertência.md",
-    "Redes/Conceitos Básicos de Redes - CISCO.md",
-    "CNH/Cuidados e Primeiros Socorros/Sinistros com vítimas.md",
-    "CNH/Cuidados e Primeiros Socorros/Sinistros sem vítimas.md",
-    "CNH/Cuidados e Primeiros Socorros/Cuidados e Primeiros Socorros.md",
-    "images/Pasted image 20260525105548.png",
-    "images/Pasted image 20260525105523.png",
-    "CNH/Direção Defensiva/Direção Defensiva.md",
-    "CNH/Cuidados e Primeiros Socorros",
-    "CNH/Infrações e Penalidades/Tipos de infrações/médias.md",
-    "CNH/Infrações e Penalidades/Tipos de infrações/leve.md",
-    "CNH/Infrações e Penalidades/Tipos de infrações/grave.md",
-    "CNH/Infrações e Penalidades/Tipos de infrações",
-    "CNH/Infrações e Penalidades/Pontuação na Carteira.md",
-    "CNH/Infrações e Penalidades/Penalidade.md",
-    "CNH/Infrações e Penalidades",
-    "CNH/Direção Defensiva/Vias",
-    "CNH/Direção Defensiva/Preferências",
-    "CNH/Direção Defensiva/Conversões",
-    "CNH/Direção Defensiva",
-    "images/{F3E5B1E9-0FA4-43CB-8B04-78602288E10D}.png",
-    "images/{D220022D-3A02-474B-BD4B-2B08457FB061}.png",
-    "images/{BA3441CF-247D-45BC-88CB-3A7E79666991}.png",
-    "images/{81045650-8095-43E2-BFA4-4D9F759C3314}.png",
-    "images/Untitled.png",
-    "images/Untitled 1.png",
-    "images/Pasted image 20260519144612.png",
-    "images/Pasted image 20260519144445.png",
-    "Redes",
-    "CNH/Sinalizações",
-    "CNH/Placas"
+    "files/CURSO MIKROTIK V7.pdf",
+    "files",
+    "Cursos/Conceitos Básicos de Redes - CISCO",
+    "Cursos/MikroTik v7",
+    "CNH/Cuidados e Primeiros Socorros"
   ]
 }

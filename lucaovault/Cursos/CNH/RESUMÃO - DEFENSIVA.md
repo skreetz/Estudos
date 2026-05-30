@@ -19,7 +19,6 @@ A **direção defensiva** é a forma de dirigir com atenção, cuidado e preven�
 
 > [!Lembrete] *Lembrete*
 > APDH
-
 ## Condições Adversas
 São fatores que aumentam os riscos no trânsito.
 ### Exemplos
@@ -32,6 +31,8 @@ São fatores que aumentam os riscos no trânsito.
 > [!NOTE] *Lembrete*
 >  Em **dias de chuva**, a distância de segurança entre 2 veículos deve ser de **4 SEGUNDOS**, em **dias normais** **2 SEGUNDOS**
 
+> [!NOTE] *Lembrete*
+> **Condição adversa** - São situações que podem aumentar o risco de acidente, como más condições da via, clima, veículo ou do próprio condutor
 ## Cuidados Importantes
 - respeitar os limites de velocidade
 - manter distância segura
@@ -39,4 +40,4 @@ São fatores que aumentam os riscos no trânsito.
 - não usar celular ao dirigir
 - não dirigir sob efeito de álcool
 ## Objetivo Final
-Conduzir o veículo de forma segura, evitando acidentes e preservando vidas.
+Conduzir o veículo de forma segura, evitando acidentes e preservando vidas.****
