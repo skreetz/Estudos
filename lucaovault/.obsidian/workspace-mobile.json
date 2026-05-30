@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CNH/RESUMÃO - INFRAÇÕES.md",
+                "file": "CNH/Sinalizações/Sinalização Horizontal.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RESUMÃO - INFRAÇÕES"
+              "title": "Sinalização Horizontal"
             }
           }
         ]
@@ -153,12 +153,13 @@
   },
   "active": "66a1b5763ac0b579",
   "lastOpenFiles": [
+    "CNH/RESUMÃO - VIAS.md",
+    "Faculdade/Aspectos Teóricos.md",
+    "CNH/RESUMÃO - INFRAÇÕES.md",
     "CNH/Placas/Placas de Advertência.md",
     "CNH/Placas/Placas de Regulamentação.md",
     "CNH/Sinalizações/Sinalização Cicloviária.md",
-    "CNH/RESUMÃO - VIAS.md",
     "CNH/RESUMÃO - SINALIZAÇÕES.md",
-    "CNH/RESUMÃO - INFRAÇÕES.md",
     "CNH/RESUMÃO - DEFENSIVA.md",
     "Faculdade/Sistemas Digitais.md",
     "Sistemas Digitais.md",
