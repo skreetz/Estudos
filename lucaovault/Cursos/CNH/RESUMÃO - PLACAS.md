@@ -1,10 +1,10 @@
-# Resumão das Placas de Trânsito
+****# Resumão das Placas de Trânsito
 
 As placas de trânsito servem para organizar, orientar e garantir segurança no trânsito.
 
 
 > [!NOTE] *Lembrete*
-> SEMPRE lê-se a placa de **baixo pra cima**
+> SEMPRE lê-se a placa de **BAIXO pra CIMA****
 
 ## Tipos de Placas
 
@@ -33,6 +33,14 @@ As placas de trânsito servem para organizar, orientar e garantir segurança no 
 - passagem de pedestres
 ### Objetivo
 - aumentar a atenção do condutor.
+
+> [!NOTE] *Lembrete*
+> A curva **ACENTUADA**, começa reto e **TOMBA** para direção seja esquerda ou direita
+> A curva **S**INUOSA, é como um **S** seja para esquerda ou direita, é definido pela **primeira curva**
+> ![[{2DB10867-4920-4D6F-92EB-A8DA08E15FF2}.png]]
+> ![[{8C795FD8-4C57-4D17-8585-B1AB19AFF4B5}.png]]
+> A placa de **confluência** é quando **RECEBE**
+> A placa de **entroncamento oblíquo** é quando **ABRE**
 # Placas de Indicação
 - **Função:** orientar e informar o motorista.
 - **Formato:** variado.

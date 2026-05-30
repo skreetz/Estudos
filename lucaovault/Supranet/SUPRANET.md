@@ -4,13 +4,10 @@ Rota da manhã 08 às 12
 [[Mudanças]]
 [[Tutoriais SVA'S]]
 [[Tutorias VOALLE]]
+[[N2]]
 
 SERVIDOR NTP1: 201.49.148.135
 SERVIDOR NTP2: o.br.pool.ntp.org
-
-**IP FIXO: Faixa 38**
-**IP Dinâmico: Junipter**
-**(PJ FIXO, PF Pool)**
 
 800MB+ ou VOIP - ONT
 Ponto principal de preferência H3601N
