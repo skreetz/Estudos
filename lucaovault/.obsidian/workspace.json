@@ -11,10 +11,14 @@
             "id": "5aa957d92fe3a6d9",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Cursos/Conceitos Básicos de Redes - CISCO/Conceitos Básicos de Redes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Conceitos Básicos de Redes"
             }
           },
           {
@@ -192,6 +196,7 @@
   },
   "active": "5aa957d92fe3a6d9",
   "lastOpenFiles": [
+    "Cursos/CNH/RESUMÃO - VIAS.md",
     "Cursos/CNH/CNH do Brasil.md",
     "Cursos/CNH/RESUMÃO - SIGLAS.md",
     "Cursos/CNH/RESUMÃO - PLACAS.md",
@@ -220,7 +225,6 @@
     "Cursos/Conceitos Básicos de Redes - CISCO/Transmissão/Sinais sem fio.md",
     "Cursos/Conceitos Básicos de Redes - CISCO/Transmissão",
     "Cursos/CNH/RESUMÃO - SINALIZAÇÕES.md",
-    "Cursos/CNH/RESUMÃO - VIAS.md",
     "Cursos/CNH/Direção Defensiva/Direção Defensiva.md",
     "images/{FDA94C1D-63FD-4078-9FBA-296EE42600A8}.png",
     "images/Pasted image 20260530132334.png",
