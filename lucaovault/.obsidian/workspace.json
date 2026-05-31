@@ -11,14 +11,10 @@
             "id": "5aa957d92fe3a6d9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cursos/Conceitos Básicos de Redes - CISCO/Redes/LAN.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LAN"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -35,8 +31,7 @@
               "title": "Conceitos Básicos de Redes"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +54,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
@@ -172,8 +167,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -186,31 +181,36 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Criar nova base": false,
-      "obsidian-git:Open Git source control": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "e9427ece28a541fc",
+  "active": "5aa957d92fe3a6d9",
   "lastOpenFiles": [
+    "Cursos/CNH/CNH do Brasil.md",
+    "Cursos/CNH/RESUMÃO - SIGLAS.md",
+    "Cursos/CNH/RESUMÃO - PLACAS.md",
+    "Cursos/CNH/RESUMÃO - INFRAÇÕES.md",
+    "Cursos/CNH/RESUMÃO - DEFENSIVA.md",
+    "Cursos/MikroTik v7/MikroTik v7.md",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Conceitos Básicos de Redes.md",
+    "Cursos/Conceitos Básicos de Redes - CISCO/Redes/LAN.md",
     "Cursos/Conceitos Básicos de Redes - CISCO/Dispositivos/Roteador.md",
     "Cursos/Conceitos Básicos de Redes - CISCO/Dispositivos/NICs.md",
     "Cursos/Conceitos Básicos de Redes - CISCO/Dispositivos/Switch.md",
     "Cursos/Conceitos Básicos de Redes - CISCO/Endereçamento/Endereço MAC.md",
     "Cursos/Conceitos Básicos de Redes - CISCO/Endereçamento/Endereço IP.md",
-    "Cursos/Conceitos Básicos de Redes - CISCO/Redes/LAN.md",
     "Cursos/Conceitos Básicos de Redes - CISCO/Endereçamento",
     "Cursos/Conceitos Básicos de Redes - CISCO/Redes/WAN.md",
     "Cursos/Conceitos Básicos de Redes - CISCO/Redes/Wi-Fi.md",
     "Cursos/Conceitos Básicos de Redes - CISCO/Dispositivos",
     "Cursos/Conceitos Básicos de Redes - CISCO/Redes/Ethernet.md",
     "Cursos/Conceitos Básicos de Redes - CISCO/Fundamentos/Mídia.md",
-    "Cursos/Conceitos Básicos de Redes - CISCO/Conceitos Básicos de Redes.md",
     "Cursos/Conceitos Básicos de Redes - CISCO/Transmissão/Sinais elétricos.md",
     "Cursos/Conceitos Básicos de Redes - CISCO/Transmissão/Sinais ópticos.md",
     "Cursos/Conceitos Básicos de Redes - CISCO/Fundamentos/Byte.md",
@@ -219,12 +219,9 @@
     "Cursos/Conceitos Básicos de Redes - CISCO/Fundamentos",
     "Cursos/Conceitos Básicos de Redes - CISCO/Transmissão/Sinais sem fio.md",
     "Cursos/Conceitos Básicos de Redes - CISCO/Transmissão",
-    "Cursos/CNH/RESUMÃO - DEFENSIVA.md",
     "Cursos/CNH/RESUMÃO - SINALIZAÇÕES.md",
     "Cursos/CNH/RESUMÃO - VIAS.md",
     "Cursos/CNH/Direção Defensiva/Direção Defensiva.md",
-    "Cursos/CNH/RESUMÃO - INFRAÇÕES.md",
-    "Cursos/CNH/RESUMÃO - PLACAS.md",
     "images/{FDA94C1D-63FD-4078-9FBA-296EE42600A8}.png",
     "images/Pasted image 20260530132334.png",
     "images/{FB2EA1FF-247C-4BE6-A353-047A3D965001}.png",
@@ -235,10 +232,7 @@
     "images/{23824B12-6372-4030-9B56-0B7CF981A211}.png",
     "images/{A1FFE749-46B6-4977-8835-47D511BB0FA8}.png",
     "images/{8AD06A40-EB9F-4ECF-AEBE-DB3E5BD225C9}.png",
-    "Cursos/CNH/RESUMÃO - SIGLAS.md",
     "Supranet/Tutorias VOALLE.md",
-    "Supranet/SUPRANET.md",
-    "Supranet/N2.md",
     "files/CURSO MIKROTIK V7.pdf",
     "files",
     "Cursos/Conceitos Básicos de Redes - CISCO",
