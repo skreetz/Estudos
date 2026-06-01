@@ -4,11 +4,18 @@
 As infrações de trânsito são divididas pela gravidade:
 
 | Tipo de infração | Pontos na CNH |
-|---|---:|
-| Leve | 3 pontos |
-| Média | 4 pontos |
-| Grave | 5 pontos |
-| Gravíssima | 7 pontos |
+| ---------------- | ------------: |
+| Leve             |      3 pontos |
+| Média            |      4 pontos |
+| Grave            |      5 pontos |
+| Gravíssima       |      7 pontos |
+
+> [!NOTE] *Lembrete*
+> **BUZINA** sempre será infração **leve**
+
+> [!NOTE] *Lembrete
+> **SEMPRE** que o veículo estiver **estacionado** será **removido**
+> **SEMPRE** que o veículo estiver em **trânsito** será **retido**
 ## **Penalidade**
 É a **punição** aplicada **pela infração**.
 **Exemplos:**
@@ -25,6 +32,11 @@ As infrações de trânsito são divididas pela gravidade:
 - Recolhimento da CNH;
 - Recolhimento do CRLV;
 - Transbordo de carga em excesso.
+
+> [!NOTE] *Lembrete*
+> Medida Administrativa, a resposta sempre terá **R** ou **T**
+> **R - Retenção, Remoção e Recolhimento**
+> **T - Transbordo de excesso de carga**
 ## **Crime de Trânsito**
 É uma c**onduta mais grave** prevista como **crime** no Código de Trânsito Brasileiro.
 **Exemplos:**

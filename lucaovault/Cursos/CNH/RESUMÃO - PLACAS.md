@@ -49,6 +49,7 @@ As placas de trânsito servem para organizar, orientar e garantir segurança no 
 > A placa de **confluência** é quando **RECEBE**
 > A placa de **entroncamento oblíquo** é quando **ABRE**
 > ![[{8AD06A40-EB9F-4ECF-AEBE-DB3E5BD225C9}.png]]
+> 
 # Placas de Indicação
 - **Função:** orientar e informar o motorista.
 - **Formato:** variado.

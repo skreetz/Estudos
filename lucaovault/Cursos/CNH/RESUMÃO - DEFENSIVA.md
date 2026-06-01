@@ -33,6 +33,11 @@ São fatores que aumentam os riscos no trânsito.
 
 > [!NOTE] *Lembrete*
 > **Condição adversa** - São situações que podem aumentar o risco de acidente, como más condições da via, clima, veículo ou do próprio condutor
+
+> [!NOTE] *Lembrete*
+> **Imprudência** - ATO
+> **Negligência** - IGNORAR 
+> **Imperícia** - HABILIDADE
 ## Cuidados Importantes
 - respeitar os limites de velocidade
 - manter distância segura
@@ -41,3 +46,4 @@ São fatores que aumentam os riscos no trânsito.
 - não dirigir sob efeito de álcool
 ## Objetivo Final
 Conduzir o veículo de forma segura, evitando acidentes e preservando vidas.****
+
